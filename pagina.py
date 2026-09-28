@@ -22,6 +22,11 @@ menus = { "Español": {"Evento": "Evento", "Amazonicas": "Amazonicas", "Programa
          "Português": {"Evento": "Evento", "Amazonicas": "Amazonicas", "Programación": "Programação", "Organizadores": "Organizadores",
                        "Convocatoria": "Chamada de artigos", "Cursos": "Coursos", "Información": "Informações"} }
 
+titulo_convocatoria = {
+    "Español": "Amazonicas XI - Convocatoria - Sesión de Morfosintaxis: Oraciones complejas",
+    "English": "Amazonicas XI - Call for Papers - Morphosyntax Session: Complex Sentences",
+    "Português": "Amazonicas XI - Chamada para trabalhos - Sessão de Morfossintaxe: Orações complexas"
+}
 
 opciones = option_menu(
     menu_title=None,
@@ -56,7 +61,18 @@ elif opciones == menus[idioma]["Amazonicas"]:
   st.write("Información sobre Amazonicas.") 
 elif opciones == menus[idioma]["Convocatoria"]: 
   st.header(menus[idioma]["Convocatoria"]) 
-  st.markdown(f'<h2 style="font-size: 40px; text-align: center; color: green">Amazonicas XI - Call for Papers - Morphosyntax Session: Complex sentences</h2>', unsafe_allow_html=True)
+  st.markdown(
+    f"""
+    <h2 style="
+        font-size: 32px;
+        text-align: center;
+        color: #2E7D32;
+    ">
+    {titulo_convocatoria[idioma]}
+    </h2>
+    """,
+    unsafe_allow_html=True
+    )
   st.markdown("""
     Complex sentences can be defined differently across linguistic
     frameworks, but they share a common feature: the use of more than
