@@ -86,7 +86,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
     to identify, classify, and describe these phenomena**.
     """)
 
-    st.subheader("Coordination")
+st.subheader("Coordination")
 
     st.markdown("""
     According to Haspelmath (2007), coordinate clauses may contain a
@@ -106,7 +106,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
     - adversative coordination (*but*).
     """)
 
-    st.subheader("Relative Clauses")
+st.subheader("Relative Clauses")
 
     st.markdown("""
     Relative clauses frequently function as modifiers of noun phrases.
@@ -145,7 +145,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
        expressed inside the relative clause.
     """)
 
-    st.subheader("Adverbial Clauses")
+st.subheader("Adverbial Clauses")
 
     st.markdown("""
     Adverbial clauses function as modifiers, or adjuncts, of independent
@@ -157,7 +157,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
     - purpose or goal.
     """)
 
-    st.subheader("Complement Clauses")
+st.subheader("Complement Clauses")
 
     st.markdown("""
     Complement clauses function as complements of the verb in the
