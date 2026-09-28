@@ -88,7 +88,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
 st.subheader("Coordination")
 
-    st.markdown("""
+st.markdown("""
     According to Haspelmath (2007), coordinate clauses may contain a
     coordinating element (**syndetic coordination**) or lack one
     (**asyndetic coordination**).
@@ -108,7 +108,7 @@ st.subheader("Coordination")
 
 st.subheader("Relative Clauses")
 
-    st.markdown("""
+st.markdown("""
     Relative clauses frequently function as modifiers of noun phrases.
     Structurally, a relative clause contains a **head**, that is, the
     noun phrase modified by the relative clause.
@@ -147,7 +147,7 @@ st.subheader("Relative Clauses")
 
 st.subheader("Adverbial Clauses")
 
-    st.markdown("""
+st.markdown("""
     Adverbial clauses function as modifiers, or adjuncts, of independent
     clauses. They may express notions such as:
 
@@ -159,7 +159,7 @@ st.subheader("Adverbial Clauses")
 
 st.subheader("Complement Clauses")
 
-    st.markdown("""
+st.markdown("""
     Complement clauses function as complements of the verb in the
     independent clause.
 
