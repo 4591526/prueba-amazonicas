@@ -54,9 +54,6 @@ if opciones == menus[idioma]["Evento"]:
 elif opciones == menus[idioma]["Amazonicas"]: 
   st.header(menus[idioma]["Amazonicas"]) 
   st.write("Información sobre Amazonicas.") 
-elif opciones == menus[idioma]["Publicaciones"]: 
-  st.header(menus[idioma]["Publicaciones"]) 
-  st.write("Publicaciones y recursos.") 
 elif opciones == menus[idioma]["Convocatoria"]: 
   st.header(menus[idioma]["Convocatoria"]) 
   st.markdown(f'<h2 style="font-size: 40px; text-align: center; color: green">Amazonicas XI - Call for Papers - Morphosyntax Session: Complex sentences</h2>', unsafe_allow_html=True)
