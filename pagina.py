@@ -11,9 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
-
-st.title("Amazonicas")
-
+st.markdown(f'<h1 style="font-size: 60px; text-align: center; color: green">Amazonicas</h1>', unsafe_allow_html=True)
 
 idioma = st.selectbox( "Idioma:", ["Español", "English", "Português"] )
 
