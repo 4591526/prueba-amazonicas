@@ -59,8 +59,7 @@ elif opciones == menus[idioma]["Publicaciones"]:
   st.write("Publicaciones y recursos.") 
 elif opciones == menus[idioma]["Convocatoria"]: 
   st.header(menus[idioma]["Convocatoria"]) 
-  st.markdown(f'<h2 style="font-size: 40px; text-align: center; color: green">Amazonicas XI - Call for Papers - Morphosyntax Session: Complex sentences
-    Organizers: Luciana Storto (Universidade de São Paulo) & Suzi Lima (University of Toronto and PPGL-UFRR)</h2>', unsafe_allow_html=True)
+  st.markdown(f'<h2 style="font-size: 40px; text-align: center; color: green">Amazonicas XI - Call for Papers - Morphosyntax Session: Complex sentences</h2>', unsafe_allow_html=True)
   st.markdown("""
     Complex sentences can be defined differently across linguistic
     frameworks, but they share a common feature: the use of more than
