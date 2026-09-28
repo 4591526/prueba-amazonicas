@@ -11,23 +11,44 @@ st.set_page_config(
     layout="wide"
 )
 
-st.markdown(f'<h1 style="font-size: 60px; text-align: center; color: green">Amazonicas</h1>', unsafe_allow_html=True)
+st.markdown(f'<h1 style="font-size: 60px; text-align: center; color: green">Amazonicas XI</h1>', unsafe_allow_html=True)
 
 idioma = st.selectbox( "Idioma:", ["Español", "English", "Português"] )
 
-menus = { "Español": { "Inicio": "Inicio", "Evento": "Evento", "Amazonicas": "Amazonicas", "Publicaciones": "Publicaciones", "Convocatoria": "Convocatoria" }, 
-         "English": { "Inicio": "Home", "Evento": "Event", "Amazonicas": "Amazonicas", "Publicaciones": "Publications", "Convocatoria": "Call for Papers" }, 
-         "Português": { "Inicio": "Início", "Evento": "Evento", "Amazonicas": "Amazônicas", "Publicaciones": "Publicações", "Convocatoria": "Chamada" } }
+menus = { "Español": {"Evento": "Evento", "Amazonicas": "Amazonicas", "Programación": "Programación", "Organizadores": "Organizadores", 
+                      "Convocatoria": "Convocatoria", "Cursos": "Cursos", "Información": "Información"}, 
+         "English": {"Evento": "Event", "Amazonicas": "Amazonicas", "Programación": "Program", "Organizadores": "Organizers",
+                     "Convocatoria": "Call for Papers", "Cursos": "Courses", "Información": "Information"}, 
+         "Português": {"Evento": "Evento", "Amazonicas": "Amazonicas", "Programación": "Programação", "Organizadores": "Organizadores",
+                       "Convocatoria": "Chamada para trabalhos", "Cursos": "Coursos", "Información": "Informações"} }
 
 
-opciones = option_menu( menu_title=None, options=list(menus[idioma].values()), 
-                       icons=[ "house", "calendar-event", "globe-americas", "journal-text", "megaphone" ], 
-                       menu_icon="cast", default_index=0, orientation="horizontal" )
+opciones = option_menu(
+    menu_title=None,
+    options=[
+        "Evento",
+        "Amazonicas",
+        "Programación",
+        "Organizadores",
+        "Convocatoria",
+        "Cursos",
+        "Información"
+    ],
+    icons=[
+        "calendar-event",
+        "globe-americas",
+        "calendar3",
+        "people",
+        "megaphone",
+        "mortarboard",
+        "info-circle"
+    ],
+    menu_icon="cast",
+    default_index=0,
+    orientation="horizontal"
+)
 
-if opciones == menus[idioma]["Inicio"]: 
-  st.header(menus[idioma]["Inicio"]) 
-  st.write("Bienvenidos a Amazonicas.") 
-elif opciones == menus[idioma]["Evento"]: 
+if opciones == menus[idioma]["Evento"]: 
   st.header(menus[idioma]["Evento"]) 
   st.write("Información sobre el evento.") 
 elif opciones == menus[idioma]["Amazonicas"]: 
