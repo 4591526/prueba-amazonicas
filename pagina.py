@@ -22,6 +22,16 @@ menus = { "Español": {"Evento": "Evento", "Amazonicas": "Amazonicas", "Programa
          "Português": {"Evento": "Evento", "Amazonicas": "Amazonicas", "Programación": "Programação", "Organizadores": "Organizadores",
                        "Convocatoria": "Chamada de artigos", "Cursos": "Coursos", "Información": "Informações"} }
 
+opciones_menu = [
+    menus[idioma]["Evento"],
+    menus[idioma]["Amazonicas"],
+    menus[idioma]["Programación"],
+    menus[idioma]["Organizadores"],
+    menus[idioma]["Convocatoria"],
+    menus[idioma]["Cursos"],
+    menus[idioma]["Información"]
+]
+
 titulo_convocatoria = {
     "Español": "Amazonicas XI - Convocatoria - Sesión de Morfosintaxis: Oraciones complejas",
     "English": "Amazonicas XI - Call for Papers - Morphosyntax Session: Complex Sentences",
@@ -373,15 +383,7 @@ contenido_convocatoria = {
 
 opciones = option_menu(
     menu_title=None,
-    options=[
-        "Evento",
-        "Amazonicas",
-        "Programación",
-        "Organizadores",
-        "Convocatoria",
-        "Cursos",
-        "Información"
-    ],
+    options=opciones_menu,
     icons=[
         "calendar-event",
         "globe-americas",
