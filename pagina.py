@@ -11,9 +11,9 @@ st.set_page_config(
     layout="wide"
 )
 
-col1, col2, col3 = st.columns([1,2,1])
+col1, col2, col3 = st.columns([1,3,1])
 with col2:
-    st.image("logo_amazonicas.png", width=1600)
+    st.image("logo_amazonicas.png", width=1800)
         
 #st.markdown(f'<h1 style="font-size: 60px; text-align: center; color: green">Amazonicas XI</h1>', unsafe_allow_html=True)
 
