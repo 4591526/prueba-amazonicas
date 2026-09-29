@@ -28,52 +28,7 @@ titulo_convocatoria = {
     "Português": "Amazonicas XI - Chamada para trabalhos - Sessão de Morfossintaxe: Orações complexas"
 }
 
-opciones = option_menu(
-    menu_title=None,
-    options=[
-        "Evento",
-        "Amazonicas",
-        "Programación",
-        "Organizadores",
-        "Convocatoria",
-        "Cursos",
-        "Información"
-    ],
-    icons=[
-        "calendar-event",
-        "globe-americas",
-        "calendar3",
-        "people",
-        "megaphone",
-        "mortarboard",
-        "info-circle"
-    ],
-    menu_icon="cast",
-    default_index=0,
-    orientation="horizontal"
-)
-
-if opciones == menus[idioma]["Evento"]: 
-  st.header(menus[idioma]["Evento"]) 
-  st.write("Información sobre el evento.") 
-elif opciones == menus[idioma]["Amazonicas"]: 
-  st.header(menus[idioma]["Amazonicas"]) 
-  st.write("Información sobre Amazonicas.") 
-    
-elif opciones == menus[idioma]["Convocatoria"]: 
-    st.markdown(
-        f"""
-        <h2 style="
-            font-size: 32px;
-            text-align: center;
-            color: #2E7D32;
-        ">
-        {titulo_convocatoria[idioma]}
-        </h2>
-        """,
-        unsafe_allow_html=True
-        )
-    contenido_convocatoria = {
+contenido_convocatoria = {
 
     "English": {
 
@@ -413,3 +368,85 @@ elif opciones == menus[idioma]["Convocatoria"]:
     """
         }
     }
+
+
+opciones = option_menu(
+    menu_title=None,
+    options=[
+        "Evento",
+        "Amazonicas",
+        "Programación",
+        "Organizadores",
+        "Convocatoria",
+        "Cursos",
+        "Información"
+    ],
+    icons=[
+        "calendar-event",
+        "globe-americas",
+        "calendar3",
+        "people",
+        "megaphone",
+        "mortarboard",
+        "info-circle"
+    ],
+    menu_icon="cast",
+    default_index=0,
+    orientation="horizontal"
+)
+
+if opciones == menus[idioma]["Evento"]: 
+  st.header(menus[idioma]["Evento"]) 
+  st.write("Información sobre el evento.") 
+elif opciones == menus[idioma]["Amazonicas"]: 
+  st.header(menus[idioma]["Amazonicas"]) 
+  st.write("Información sobre Amazonicas.") 
+    
+elif opciones == menus[idioma]["Convocatoria"]: 
+    st.markdown(
+        f"""
+        <h2 style="
+            font-size: 32px;
+            text-align: center;
+            color: #2E7D32;
+        ">
+        {titulo_convocatoria[idioma]}
+        </h2>
+        """,
+        unsafe_allow_html=True
+        )
+    contenido = contenido_convocatoria[idioma]
+
+    st.markdown(contenido["introduccion"])
+
+    st.subheader({
+        "Español": "Coordinación",
+        "English": "Coordination",
+        "Português": "Coordenação"
+    }[idioma])
+
+    st.markdown(contenido["coordinacion"])
+
+    st.subheader({
+        "Español": "Cláusulas relativas",
+        "English": "Relative Clauses",
+        "Português": "Orações relativas"
+    }[idioma])
+
+    st.markdown(contenido["relativas"])
+
+    st.subheader({
+        "Español": "Cláusulas adverbiales",
+        "English": "Adverbial Clauses",
+        "Português": "Orações adverbiais"
+    }[idioma])
+
+    st.markdown(contenido["adverbiales"])
+
+    st.subheader({
+        "Español": "Cláusulas completivas",
+        "English": "Complement Clauses",
+        "Português": "Orações completivas"
+    }[idioma])
+
+    st.markdown(contenido["completivas"])
