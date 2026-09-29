@@ -60,7 +60,6 @@ elif opciones == menus[idioma]["Amazonicas"]:
   st.header(menus[idioma]["Amazonicas"]) 
   st.write("Información sobre Amazonicas.") 
 elif opciones == menus[idioma]["Convocatoria"]: 
-  st.header(menus[idioma]["Convocatoria"]) 
   st.markdown(
     f"""
     <h2 style="
@@ -99,94 +98,94 @@ elif opciones == menus[idioma]["Convocatoria"]:
     to identify, classify, and describe these phenomena**.
     """)
 
-st.subheader("Coordination")
-
-st.markdown("""
-    According to Haspelmath (2007), coordinate clauses may contain a
-    coordinating element (**syndetic coordination**) or lack one
-    (**asyndetic coordination**).
-
-    Syndetic coordination can be classified into eight types depending
-    on:
-
-    1. Whether there is one or two elements responsible for the coordination.
-    2. The position of these elements with respect to the coordinated clauses.
-
-    From a semantic perspective, coordinating elements may express:
-
-    - conjunction (*and*);
-    - disjunction (*or*); or
-    - adversative coordination (*but*).
-    """)
-
-st.subheader("Relative Clauses")
-
-st.markdown("""
-    Relative clauses frequently function as modifiers of noun phrases.
-    Structurally, a relative clause contains a **head**, that is, the
-    noun phrase modified by the relative clause.
-
-    Two strategies are frequently used to form relative clauses:
-
-    1. The use of a relativizer.
-    2. Nominalization.
-
-    Camacho & Gimenez (2017) report that, among 30 Indigenous languages
-    analyzed, 18 use nominalization as a relative-clause formation strategy.
-
-    The literature on relative clauses also distinguishes between
-    **head-internal** and **head-external** structures.
-
-    Head-external relative clauses may be:
-
-    - **Prenominal** (Relative N), as in Mandarin.
-    - **Postnominal** (N Relative), as in English.
-
-    Dryer et al. (2013) analyzed 824 languages and found that 579 have
-    postnominal relative clauses, 141 have prenominal relative clauses,
-    and 24 have head-internal relative clauses.
-
-    Another typological classification (Payne 1997) considers how the
-    noun phrase inside the relative clause, which is coreferential with
-    the head, is expressed.
-
-    Two strategies can be distinguished:
-
-    1. **Gap strategy**, in which the noun phrase is not overtly expressed
-       inside the relative clause.
-    2. **Overt strategy**, in which the noun phrase is phonologically
-       expressed inside the relative clause.
-    """)
-
-st.subheader("Adverbial Clauses")
-
-st.markdown("""
-    Adverbial clauses function as modifiers, or adjuncts, of independent
-    clauses. They may express notions such as:
-
-    - time;
-    - condition;
-    - reason; and
-    - purpose or goal.
-    """)
-
-st.subheader("Complement Clauses")
-
-st.markdown("""
-    Complement clauses function as complements of the verb in the
-    independent clause.
-
-    The verbs that select complement clauses may express different
-    semantic domains, including:
-
-    - **Modality:** obligation, possibility, capacity.
-    - **Phase:** start, stop, continue.
-    - **Manipulation:** order, persuade.
-    - **Desideratives:** want, desire.
-    - **Perception:** hear, see.
-    - **Knowledge:** know, perceive.
-    - **Propositional attitude:** think, believe.
-    - **Enunciation:** say, speak.
-    """)
-
+    st.subheader("Coordination")
+    
+    st.markdown("""
+        According to Haspelmath (2007), coordinate clauses may contain a
+        coordinating element (**syndetic coordination**) or lack one
+        (**asyndetic coordination**).
+    
+        Syndetic coordination can be classified into eight types depending
+        on:
+    
+        1. Whether there is one or two elements responsible for the coordination.
+        2. The position of these elements with respect to the coordinated clauses.
+    
+        From a semantic perspective, coordinating elements may express:
+    
+        - conjunction (*and*);
+        - disjunction (*or*); or
+        - adversative coordination (*but*).
+        """)
+    
+    st.subheader("Relative Clauses")
+    
+    st.markdown("""
+        Relative clauses frequently function as modifiers of noun phrases.
+        Structurally, a relative clause contains a **head**, that is, the
+        noun phrase modified by the relative clause.
+    
+        Two strategies are frequently used to form relative clauses:
+    
+        1. The use of a relativizer.
+        2. Nominalization.
+    
+        Camacho & Gimenez (2017) report that, among 30 Indigenous languages
+        analyzed, 18 use nominalization as a relative-clause formation strategy.
+    
+        The literature on relative clauses also distinguishes between
+        **head-internal** and **head-external** structures.
+    
+        Head-external relative clauses may be:
+    
+        - **Prenominal** (Relative N), as in Mandarin.
+        - **Postnominal** (N Relative), as in English.
+    
+        Dryer et al. (2013) analyzed 824 languages and found that 579 have
+        postnominal relative clauses, 141 have prenominal relative clauses,
+        and 24 have head-internal relative clauses.
+    
+        Another typological classification (Payne 1997) considers how the
+        noun phrase inside the relative clause, which is coreferential with
+        the head, is expressed.
+    
+        Two strategies can be distinguished:
+    
+        1. **Gap strategy**, in which the noun phrase is not overtly expressed
+           inside the relative clause.
+        2. **Overt strategy**, in which the noun phrase is phonologically
+           expressed inside the relative clause.
+        """)
+    
+    st.subheader("Adverbial Clauses")
+    
+    st.markdown("""
+        Adverbial clauses function as modifiers, or adjuncts, of independent
+        clauses. They may express notions such as:
+    
+        - time;
+        - condition;
+        - reason; and
+        - purpose or goal.
+        """)
+    
+    st.subheader("Complement Clauses")
+    
+    st.markdown("""
+        Complement clauses function as complements of the verb in the
+        independent clause.
+    
+        The verbs that select complement clauses may express different
+        semantic domains, including:
+    
+        - **Modality:** obligation, possibility, capacity.
+        - **Phase:** start, stop, continue.
+        - **Manipulation:** order, persuade.
+        - **Desideratives:** want, desire.
+        - **Perception:** hear, see.
+        - **Knowledge:** know, perceive.
+        - **Propositional attitude:** think, believe.
+        - **Enunciation:** say, speak.
+        """)
+    
 
