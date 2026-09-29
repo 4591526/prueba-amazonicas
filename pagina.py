@@ -140,7 +140,8 @@ contenido_convocatoria = {
     - **Enunciation:** say, speak.
     """
         }, 
-        "Español": {
+        
+    "Español": {
     
             "introduccion": """
     Las oraciones complejas pueden definirse de diferentes maneras
@@ -255,7 +256,8 @@ contenido_convocatoria = {
     - **Enunciación:** decir, hablar.
     """
         },
-        "Português": {
+        
+    "Português": {
     
             "introduccion": """
     As orações complexas podem ser definidas de diferentes maneiras
@@ -415,6 +417,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
         """,
         unsafe_allow_html=True
         )
+    
     contenido = contenido_convocatoria[idioma]
 
     st.markdown(contenido["introduccion"])
