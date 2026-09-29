@@ -463,3 +463,22 @@ elif opciones == menus[idioma]["Convocatoria"]:
     st.markdown(contenido["completivas"])
 
     
+st.markdown("""
+<style>
+.footer {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+</style>
+
+<div class="footer">
+    <img src="banner_amazonicas.png">
+</div>
+""", unsafe_allow_html=True)
