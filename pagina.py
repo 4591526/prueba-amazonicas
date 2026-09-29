@@ -419,6 +419,41 @@ elif opciones == menus[idioma]["Convocatoria"]:
     
     contenido = contenido_convocatoria[idioma]
 
-    st.markdown(contenido[idioma])
+    st.markdown(contenido["introduccion"])
+
+    subtitulos = {
+        "Español": {
+            "coordinacion": "Coordinación",
+            "relativas": "Cláusulas relativas",
+            "adverbiales": "Cláusulas adverbiales",
+            "completivas": "Cláusulas completivas"
+        },
+
+        "English": {
+            "coordinacion": "Coordination",
+            "relativas": "Relative Clauses",
+            "adverbiales": "Adverbial Clauses",
+            "completivas": "Complement Clauses"
+        },
+
+        "Português": {
+            "coordinacion": "Coordenação",
+            "relativas": "Orações relativas",
+            "adverbiales": "Orações adverbiais",
+            "completivas": "Orações completivas"
+        }
+    }
+
+    st.subheader(subtitulos[idioma]["coordinacion"])
+    st.markdown(contenido["coordinacion"])
+
+    st.subheader(subtitulos[idioma]["relativas"])
+    st.markdown(contenido["relativas"])
+
+    st.subheader(subtitulos[idioma]["adverbiales"])
+    st.markdown(contenido["adverbiales"])
+
+    st.subheader(subtitulos[idioma]["completivas"])
+    st.markdown(contenido["completivas"])
 
     
