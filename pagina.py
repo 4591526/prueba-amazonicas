@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.image(logo_amazonicas.png)
+st.image("logo_amazonicas.png")
 #st.markdown(f'<h1 style="font-size: 60px; text-align: center; color: green">Amazonicas XI</h1>', unsafe_allow_html=True)
 
 idioma = st.selectbox( "Idioma:", ["Español", "English", "Português"] )
