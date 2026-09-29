@@ -14,8 +14,7 @@ st.set_page_config(
 col1, col2, col3 = st.columns([1,3,1], gap="small")
 with col2:
     st.image("logo_amazonicas.png", width=1500)
-
-st.image("banner_amazonicas.png", width=500)
+    st.image("banner_amazonicas.png", width=1500)
         
 #st.markdown(f'<h1 style="font-size: 60px; text-align: center; color: green">Amazonicas XI</h1>', unsafe_allow_html=True)
 
