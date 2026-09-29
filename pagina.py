@@ -60,44 +60,43 @@ elif opciones == menus[idioma]["Amazonicas"]:
   st.header(menus[idioma]["Amazonicas"]) 
   st.write("Información sobre Amazonicas.") 
 elif opciones == menus[idioma]["Convocatoria"]: 
-  st.markdown(
-    f"""
-    <h2 style="
-        font-size: 32px;
-        text-align: center;
-        color: #2E7D32;
-    ">
-    {titulo_convocatoria[idioma]}
-    </h2>
-    """,
-    unsafe_allow_html=True
-    )
-  st.markdown("""
-    Complex sentences can be defined differently across linguistic
-    frameworks, but they share a common feature: the use of more than
-    one verb within a sentence.
-
-    We invite linguists working on Amazonian languages to submit
-    abstracts that describe, analyze, or explain **coordination,
-    relative clauses, adverbial clauses, or complement clauses** from
-    either a synchronic or diachronic perspective.
-
-    **Coordination** involves two independent clauses. In contrast,
-    relative, adverbial, and complement clauses are dependent on an
-    independent clause.
-
-    In Cristofaro's (2005) typological framework of subordination,
-    this dependency must be at least semantic, whereas in formal
-    frameworks it is generally understood as syntactic.
-
-    From a typological perspective, it is important to note that not
-    all languages make a three-way structural distinction among
-    dependent clauses.
-
-    We particularly encourage discussions of the **methodologies used
-    to identify, classify, and describe these phenomena**.
-    """)
-
+    st.markdown(
+        f"""
+        <h2 style="
+            font-size: 32px;
+            text-align: center;
+            color: #2E7D32;
+        ">
+        {titulo_convocatoria[idioma]}
+        </h2>
+        """,
+        unsafe_allow_html=True
+        )
+    st.markdown("""
+        Complex sentences can be defined differently across linguistic
+        frameworks, but they share a common feature: the use of more than
+        one verb within a sentence.
+    
+        We invite linguists working on Amazonian languages to submit
+        abstracts that describe, analyze, or explain **coordination,
+        relative clauses, adverbial clauses, or complement clauses** from
+        either a synchronic or diachronic perspective.
+    
+        **Coordination** involves two independent clauses. In contrast,
+        relative, adverbial, and complement clauses are dependent on an
+        independent clause.
+    
+        In Cristofaro's (2005) typological framework of subordination,
+        this dependency must be at least semantic, whereas in formal
+        frameworks it is generally understood as syntactic.
+    
+        From a typological perspective, it is important to note that not
+        all languages make a three-way structural distinction among
+        dependent clauses.
+    
+        We particularly encourage discussions of the **methodologies used
+        to identify, classify, and describe these phenomena**.
+        """)
     st.subheader("Coordination")
     
     st.markdown("""
