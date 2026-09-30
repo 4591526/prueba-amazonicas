@@ -267,72 +267,98 @@ elif opciones == menus[idioma]["Organizadores"]:
   st.write("Información sobre Organizadores") 
     
 elif opciones == menus[idioma]["Convocatoria"]:
-    contenido = f"""
-    <div style="
-        color: #7f3213;
-        font-size: 18px;
-        line-height: 1.6;
-    ">
-
-        <h2 style="
-            font-size: 32px;
-            text-align: center;
-            color: #7f3213;
-        ">
+    st.markdown(
+        f"""
+        <h2 style="color:#7f3213; text-align:center; font-size:32px;">
             {convocatoria[idioma]["Titulo"]}
         </h2>
+        """,
+        unsafe_allow_html=True
+    )
 
-        <h3 style="
-            text-align: center;
-            color: #7f3213;
-        ">
+    st.markdown(
+        f"""
+        <h3 style="color:#7f3213; text-align:center;">
             {convocatoria[idioma]["Subtitulo"]}
         </h3>
+        """,
+        unsafe_allow_html=True
+    )
 
-        <p style="text-align: center;">
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; text-align:center; font-size:18px;">
             <strong>{convocatoria[idioma]["Organizadores"]}</strong><br>
             {convocatoria[idioma]["Lugar"]}<br>
             {convocatoria[idioma]["Fecha_evento"]}
         </p>
+        """,
+        unsafe_allow_html=True
+    )
 
-        <p>
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
             {convocatoria[idioma]["Descripcion"]}
         </p>
+        """,
+        unsafe_allow_html=True
+    )
 
-        <p>
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
             <strong>{convocatoria[idioma]["Envio"]}</strong>
         </p>
+        """,
+        unsafe_allow_html=True
+    )
 
-        <p>
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
             {convocatoria[idioma]["Limite"]}
         </p>
+        """,
+        unsafe_allow_html=True
+    )
 
-        <p>
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
             {convocatoria[idioma]["Idiomas"]}
         </p>
+        """,
+        unsafe_allow_html=True
+    )
 
-        <p>
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
             <strong>{convocatoria[idioma]["Deadline"]}</strong>
         </p>
+        """,
+        unsafe_allow_html=True
+    )
 
-        <p>
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
             <strong>{convocatoria[idioma]["Aceptacion"]}</strong>
         </p>
+        """,
+        unsafe_allow_html=True
+    )
 
-        <p>
-            <a
-                href="{convocatoria[idioma]["Link"]}"
-                target="_blank"
-                style="
-                    color: #7f3213;
-                    font-weight: bold;
-                "
-            >
+    st.markdown(
+        f"""
+        <p style="font-size:18px;">
+            <a href="{convocatoria[idioma]["Link"]}"
+               target="_blank"
+               style="color:#7f3213; font-weight:bold;">
                 {convocatoria[idioma]["Link_text"]}
             </a>
         </p>
-
-    </div>
-    """
-
-    st.markdown(contenido, unsafe_allow_html=True)
+        """,
+        unsafe_allow_html=True
+    )
