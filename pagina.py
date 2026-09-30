@@ -267,7 +267,14 @@ elif opciones == menus[idioma]["Organizadores"]:
   st.write("Información sobre Organizadores") 
     
 elif opciones == menus[idioma]["Convocatoria"]: 
-    st.markdown(f"""
+   st.markdown(
+    f"""
+    <div style="
+        color: #7f3213;
+        font-size: 18px;
+        line-height: 1.6;
+    ">
+
         <h2 style="
             font-size: 32px;
             text-align: center;
@@ -283,49 +290,51 @@ elif opciones == menus[idioma]["Convocatoria"]:
             {convocatoria[idioma]["Subtitulo"]}
         </h3>
 
-        <p style="
-            text-align: center;
-            color: #7f3213;
-        ">
+        <p style="text-align: center;">
             <strong>{convocatoria[idioma]["Organizadores"]}</strong><br>
             {convocatoria[idioma]["Lugar"]}<br>
             {convocatoria[idioma]["Fecha_evento"]}
         </p>
-        """, unsafe_allow_html=True)
-    st.markdown(f"""
-        <p style="color: #7f3213; font-size: 18px;">
+
+        <p>
             {convocatoria[idioma]["Descripcion"]}
         </p>
 
-        <p style="color: #7f3213; font-size: 18px;">
-            {convocatoria[idioma]["Envio"]}
+        <p>
+            <strong>{convocatoria[idioma]["Envio"]}</strong>
         </p>
 
-        <p style="color: #7f3213; font-size: 18px;">
+        <p>
             {convocatoria[idioma]["Limite"]}
         </p>
 
-        <p style="color: #7f3213; font-size: 18px;">
+        <p>
             {convocatoria[idioma]["Idiomas"]}
         </p>
 
-        <p style="color: #7f3213; font-size: 18px;">
+        <p>
             <strong>{convocatoria[idioma]["Deadline"]}</strong>
         </p>
 
-        <p style="color: #7f3213; font-size: 18px;">
+        <p>
             <strong>{convocatoria[idioma]["Aceptacion"]}</strong>
-        </p>""",unsafe_allow_html=True)
+        </p>
 
-    st.markdown(f"""
-        <p style="font-size: 17px;">
+        <p>
             <a href="{convocatoria[idioma]["Link"]}"
                target="_blank"
-               style="color: #7f3213; font-weight: bold;">
+               style="
+                   color: #7f3213;
+                   font-weight: bold;
+               ">
                 {convocatoria[idioma]["Link_text"]}
             </a>
         </p>
-        """, unsafe_allow_html=True)
+
+    </div>
+    """,
+    unsafe_allow_html=True
+)
     
 
     
