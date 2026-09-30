@@ -50,11 +50,11 @@ idioma = st.selectbox(
 )
 
 menus = { "Español": {"Evento": "Evento", "Amazonicas": "Amazonicas", "Programación": "Programación", "Organizadores": "Organizadores", 
-                      "Convocatoria": "Convocatoria", "Cursos": "Cursos", "Información": "Información"}, 
+                      "Convocatoria": "Convocatoria de resúmenes", "Cursos": "Cursos", "Información": "Información"}, 
          "English": {"Evento": "Event", "Amazonicas": "Amazonicas", "Programación": "Program", "Organizadores": "Organizers",
-                     "Convocatoria": "Call for Papers", "Cursos": "Courses", "Información": "Information"}, 
+                     "Convocatoria": "Call for abstracts", "Cursos": "Courses", "Información": "Information"}, 
          "Português": {"Evento": "Evento", "Amazonicas": "Amazonicas", "Programación": "Programação", "Organizadores": "Organizadores",
-                       "Convocatoria": "Chamada de artigos", "Cursos": "Coursos", "Información": "Informações"} }
+                       "Convocatoria": "Chamada submissão de resumos", "Cursos": "Coursos", "Información": "Informações"} }
 
 opciones_menu = [
     menus[idioma]["Evento"],
@@ -120,6 +120,117 @@ evento = {
     }
 }
 
+convocatoria = {
+    "Español": {
+        "Titulo": "Convocatoria de resúmenes",
+        "Subtitulo": "AMAZONICAS XI 2027 – Sesión General",
+        "Organizadores": "Organizadores: Elder Lane, Kasia Wojtylak, Sidi Facundes",
+        "Lugar": "Pontificia Universidad Católica del Perú, Lima, Perú",
+        "Fecha_evento": "15 al 18 de junio de 2027",
+
+        "Descripcion": """
+        La sesión general de AMAZONICAS proporciona un espacio para la presentación
+        de trabajos sobre distintos aspectos de las lenguas amazónicas, incluyendo
+        temas como la fonética, fonología, morfología, sintaxis, semántica,
+        pragmática, estructura informativa, lingüística histórica, psicolingüística,
+        tipología, documentación, revitalización, u otros temas lingüísticos no
+        cubiertos por los simposios temáticos.
+        """,
+
+        "Envio": """
+        Un documento en formato PDF, máximo 1 página excluyendo las referencias,
+        márgenes de 1 pulgada, fuente de 12 puntos y espacio sencillo. Incluya título.
+        Las referencias y ejemplos pueden ser entregados en una página separada.
+        No incluya nombres o apellidos de autores ni otra información que identifique
+        a los autores.
+        """,
+
+        "Limite": "Se pueden enviar máximo dos resúmenes, de los cuales solamente uno puede ser como autor único.",
+
+        "Idiomas": "El resumen y la ponencia pueden ser en español, portugués o inglés.",
+
+        "Deadline": "Fecha límite de entrega: 6 de diciembre de 2026",
+
+        "Aceptacion": "Notificación de aceptación: 4 de enero de 2027",
+
+        "Link": "https://app.oxfordabstracts.com/stages/83705/submitter",
+
+        "Link_text": "Enlace para envío de resúmenes"
+    },
+
+    "English": {
+        "Titulo": "Call for abstracts",
+        "Subtitulo": "AMAZONICAS XI 2027 – General Session",
+        "Organizadores": "Organizers: Elder Lane, Kasia Wojtylak, Sidi Facundes",
+        "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
+        "Fecha_evento": "June 15 to 18, 2027",
+
+        "Descripcion": """
+        The general session of AMAZONICAS provides a forum for papers on diverse
+        aspects of Amazonian languages, such as phonetics, phonology, morphology,
+        syntax, semantics, pragmatics, information structure, historical linguistics,
+        psycholinguistics, typology, documentation, revitalization, or other
+        linguistic topics outside of the thematic symposia.
+        """,
+
+        "Envio": """
+        One document in PDF format, at most 1 page excluding references,
+        1-inch margins, 12pt font, and single-spaced. Include a title.
+        References and examples can be provided on an additional page.
+        Do not include author names or other identifying information in the abstract.
+        """,
+
+        "Limite": "A maximum of two abstracts may be submitted, with only one being single-authored.",
+
+        "Idiomas": "The abstract and the talk can be in Spanish, Portuguese, or English.",
+
+        "Deadline": "Deadline for submission: December 6, 2026",
+
+        "Aceptacion": "Notification of acceptance: January 4, 2027",
+
+        "Link": "https://app.oxfordabstracts.com/stages/83705/submitter",
+
+        "Link_text": "Abstract submission link"
+    },
+
+    "Português": {
+        "Titulo": "Chamada para submissão de resumos",
+        "Subtitulo": "AMAZONICAS XI 2027 – Sessão Geral",
+        "Organizadores": "Organizadores: Elder Lane, Kasia Wojtylak, Sidi Facundes",
+        "Lugar": "Pontifícia Universidade Católica do Peru, Lima, Peru",
+        "Fecha_evento": "15 a 18 de junho de 2027",
+
+        "Descripcion": """
+        A sessão geral de AMAZONICAS fornece um espaço para a apresentação de
+        trabalhos sobre diversos aspectos das línguas amazônicas, incluindo tópicos
+        como fonética, fonologia, morfologia, sintaxe, semântica, pragmática,
+        estrutura informacional, linguística histórica, psicolinguística, tipologia,
+        documentação, revitalização ou outros tópicos linguísticos não cobertos
+        pelos simpósios temáticos.
+        """,
+
+        "Envio": """
+        Um documento em formato PDF, máximo de 1 página sem as referências,
+        margens de 1 polegada (2,54 cm), fonte 12 e espaço simples.
+        Incluir título. As referências e exemplos podem constar em uma página
+        separada. Não incluir os nomes dos autores ou outras informações de
+        identificação no resumo.
+        """,
+
+        "Limite": "Podem ser submetidos no máximo dois resumos, sendo apenas um deles de autoria única.",
+
+        "Idiomas": "O resumo e a apresentação podem ser em espanhol, português ou inglês.",
+
+        "Deadline": "Prazo para submissão: 6 de dezembro de 2026",
+
+        "Aceptacion": "Notificação de aceitação: 4 de janeiro de 2027",
+
+        "Link": "https://app.oxfordabstracts.com/stages/83705/submitter",
+
+        "Link_text": "Link para submissão de resumos"
+    }
+}
+
 opciones = option_menu(
     menu_title=None,
     options=opciones_menu,
@@ -146,20 +257,87 @@ if opciones == menus[idioma]["Evento"]:
 elif opciones == menus[idioma]["Amazonicas"]: 
   st.header(menus[idioma]["Amazonicas"]) 
   st.write("Información sobre Amazonicas.") 
+
+elif opciones == menus[idioma]["Programación"]: 
+  st.header(menus[idioma]["Programación"]) 
+  st.write("Información sobre Programación") 
+
+elif opciones == menus[idioma]["Organizadores"]: 
+  st.header(menus[idioma]["Organizadores"]) 
+  st.write("Información sobre Organizadores") 
     
 elif opciones == menus[idioma]["Convocatoria"]: 
+     st.markdown(
+        f"""
+        <h2 style="
+            font-size: 32px;
+            text-align: center;
+            color: #7f3213;
+        ">
+            {convocatoria[idioma]["Titulo"]}
+        </h2>
 
-    st.subheader(subtitulos[idioma]["coordinacion"])
-    st.markdown(contenido["coordinacion"])
+        <h3 style="
+            text-align: center;
+            color: #7f3213;
+        ">
+            {convocatoria[idioma]["Subtitulo"]}
+        </h3>
 
-    st.subheader(subtitulos[idioma]["relativas"])
-    st.markdown(contenido["relativas"])
+        <p style="
+            text-align: center;
+            color: #7f3213;
+        ">
+            <strong>{convocatoria[idioma]["Organizadores"]}</strong><br>
+            {convocatoria[idioma]["Lugar"]}<br>
+            {convocatoria[idioma]["Fecha_evento"]}
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
 
-    st.subheader(subtitulos[idioma]["adverbiales"])
-    st.markdown(contenido["adverbiales"])
+    st.markdown(
+        f"""
+        <p style="color: #7f3213; font-size: 17px; line-height: 1.6;">
+            {convocatoria[idioma]["Descripcion"]}
+        </p>
 
-    st.subheader(subtitulos[idioma]["completivas"])
-    st.markdown(contenido["completivas"])
+        <h3 style="color: #7f3213;">
+            {convocatoria[idioma]["Envio"]}
+        </h3>
+
+        <p style="color: #7f3213; font-size: 17px;">
+            {convocatoria[idioma]["Limite"]}
+        </p>
+
+        <p style="color: #7f3213; font-size: 17px;">
+            {convocatoria[idioma]["Idiomas"]}
+        </p>
+
+        <p style="color: #7f3213; font-size: 17px;">
+            <strong>{convocatoria[idioma]["Deadline"]}</strong>
+        </p>
+
+        <p style="color: #7f3213; font-size: 17px;">
+            <strong>{convocatoria[idioma]["Aceptacion"]}</strong>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="font-size: 17px;">
+            <a href="{convocatoria[idioma]["Link"]}"
+               target="_blank"
+               style="color: #7f3213; font-weight: bold;">
+                {convocatoria[idioma]["Link_text"]}
+            </a>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+    
 
     
 
