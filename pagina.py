@@ -20,13 +20,25 @@ with col2:
 
 st.markdown(
     """
-    <p style="
-        color: black;
-        font-size: 16px;
-        font-weight: bold;
-    ">
-        Language:
-    </p>
+    <style>
+    /* Selectbox */
+    div[data-baseweb="select"] > div {
+        color: black !important;
+        background-color: white !important;
+        border: 1px solid #555 !important;
+    }
+
+    /* Opciones desplegables */
+    div[role="option"] {
+        color: black !important;
+        background-color: white !important;
+    }
+
+    /* Texto dentro del select */
+    div[data-baseweb="select"] span {
+        color: black !important;
+    }
+    </style>
     """,
     unsafe_allow_html=True
 )
