@@ -446,18 +446,8 @@ opciones = option_menu(
 )
 
 if opciones == menus[idioma]["Evento"]: 
-  st.markdown(
-        f"""
-        <h2 style="
-            font-size: 32px;
-            text-align: center;
-            color: #2E7D32;
-        ">
-        {evento[idioma]}
-        </h2>
-        """,
-        unsafe_allow_html=True
-        )
+    st.markdown( f""" <h2 style=" font-size: 32px; text-align: center; color: #2E7D32; margin-bottom: 10px; "> {evento[idioma]} </h2> """, unsafe_allow_html=True ) 
+    st.markdown( f""" <div style=" text-align: center; font-size: 18px; line-height: 1.6; "> <p><strong>{lugar[idioma]}</strong></p> <p>{fechas[idioma]}</p> <p>📧 {correo[idioma]}</p> </div> """, unsafe_allow_html=True)
     
 elif opciones == menus[idioma]["Amazonicas"]: 
   st.header(menus[idioma]["Amazonicas"]) 
