@@ -267,7 +267,7 @@ elif opciones == menus[idioma]["Organizadores"]:
   st.write("Información sobre Organizadores") 
     
 elif opciones == menus[idioma]["Convocatoria"]: 
-     st.markdown(f"""
+    st.markdown(f"""
         <h2 style="
             font-size: 32px;
             text-align: center;
@@ -291,10 +291,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
             {convocatoria[idioma]["Lugar"]}<br>
             {convocatoria[idioma]["Fecha_evento"]}
         </p>
-        """,
-        unsafe_allow_html=True
-    )
-
+        """, unsafe_allow_html=True)
     st.markdown(f"""
         <p style="color: #7f3213; font-size: 17px; line-height: 1.6;">
             {convocatoria[idioma]["Descripcion"]}
@@ -318,10 +315,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
         <p style="color: #7f3213; font-size: 17px;">
             <strong>{convocatoria[idioma]["Aceptacion"]}</strong>
-        </p>
-        """,
-        unsafe_allow_html=True
-    )
+        </p>""",unsafe_allow_html=True)
 
     st.markdown(f"""
         <p style="font-size: 17px;">
@@ -331,9 +325,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
                 {convocatoria[idioma]["Link_text"]}
             </a>
         </p>
-        """,
-        unsafe_allow_html=True
-    )
+        """, unsafe_allow_html=True)
     
 
     
