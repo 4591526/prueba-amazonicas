@@ -459,7 +459,6 @@ if opciones == menus[idioma]["Evento"]:
         unsafe_allow_html=True
         )
     
-    contenido = contenido_convocatoria[idioma]
 elif opciones == menus[idioma]["Amazonicas"]: 
   st.header(menus[idioma]["Amazonicas"]) 
   st.write("Información sobre Amazonicas.") 
