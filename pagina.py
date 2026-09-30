@@ -37,6 +37,48 @@ opciones_menu = [
     menus[idioma]["Información"]
 ]
 
+
+evento = {
+    "Español": {
+        "Evento": "AMAZONICAS XI — Congreso Internacional sobre Lenguas Amazónicas",
+        "Lugar": "Pontificia Universidad Católica del Perú, Lima",
+        "Fechas": "Del 15 al 18 de junio de 2027",
+        "Temas": [
+            "Fonología: prosodia y entonación",
+            "Morfosintaxis: oraciones complejas",
+            "Lengua y sociedad: revitalización lingüística en contextos de alta obsolescencia",
+            "Sesión general: tema libre"
+        ],
+        "Correo": "amazonicasXI@gmail.com"
+    },
+
+    "English": {
+        "Evento": "AMAZONICAS XI — International Conference on Amazonian Languages",
+        "Lugar": "Pontificia Universidad Católica del Perú, Lima",
+        "Fechas": "June 15–18, 2027",
+        "Temas": [
+            "Phonology: prosody and intonation",
+            "Morphosyntax: complex sentences",
+            "Language and Society: language revitalization in high obsolescence contexts",
+            "General Session: free topic"
+        ],
+        "Correo": "amazonicasXI@gmail.com"
+    },
+
+    "Português": {
+        "Evento": "AMAZONICAS XI — Conferência Internacional sobre Línguas Amazónicas",
+        "Lugar": "Pontifícia Universidade Católica do Peru, Lima",
+        "Fechas": "15 a 18 de junho de 2027",
+        "Temas": [
+            "Fonologia: prosódia e entoação",
+            "Morfossintaxe: cláusulas complexas",
+            "Língua e sociedade: revitalização linguística em contextos de elevada obsolescência",
+            "Sessão geral: tema livre"
+        ],
+        "Correo": "amazonicasXI@gmail.com"
+    }
+}
+
 titulo_convocatoria = {
     "Español": "Amazonicas XI - Convocatoria - Sesión de Morfosintaxis: Oraciones complejas",
     "English": "Amazonicas XI - Call for Papers - Morphosyntax Session: Complex Sentences",
@@ -404,8 +446,20 @@ opciones = option_menu(
 )
 
 if opciones == menus[idioma]["Evento"]: 
-  st.header(menus[idioma]["Evento"]) 
-  st.write("Información sobre el evento.") 
+  st.markdown(
+        f"""
+        <h2 style="
+            font-size: 32px;
+            text-align: center;
+            color: #2E7D32;
+        ">
+        {evento[idioma]}
+        </h2>
+        """,
+        unsafe_allow_html=True
+        )
+    
+    contenido = contenido_convocatoria[idioma]
 elif opciones == menus[idioma]["Amazonicas"]: 
   st.header(menus[idioma]["Amazonicas"]) 
   st.write("Información sobre Amazonicas.") 
