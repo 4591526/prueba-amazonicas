@@ -267,74 +267,72 @@ elif opciones == menus[idioma]["Organizadores"]:
   st.write("Información sobre Organizadores") 
     
 elif opciones == menus[idioma]["Convocatoria"]:
+    contenido = f"""
+    <div style="
+        color: #7f3213;
+        font-size: 18px;
+        line-height: 1.6;
+    ">
 
-    st.markdown(
-        f"""
-        <div style="
+        <h2 style="
+            font-size: 32px;
+            text-align: center;
             color: #7f3213;
-            font-size: 18px;
-            line-height: 1.6;
         ">
+            {convocatoria[idioma]["Titulo"]}
+        </h2>
 
-            <h2 style="
-                font-size: 32px;
-                text-align: center;
-                color: #7f3213;
-            ">
-                {convocatoria[idioma]["Titulo"]}
-            </h2>
+        <h3 style="
+            text-align: center;
+            color: #7f3213;
+        ">
+            {convocatoria[idioma]["Subtitulo"]}
+        </h3>
 
-            <h3 style="
-                text-align: center;
-                color: #7f3213;
-            ">
-                {convocatoria[idioma]["Subtitulo"]}
-            </h3>
+        <p style="text-align: center;">
+            <strong>{convocatoria[idioma]["Organizadores"]}</strong><br>
+            {convocatoria[idioma]["Lugar"]}<br>
+            {convocatoria[idioma]["Fecha_evento"]}
+        </p>
 
-            <p style="text-align: center;">
-                <strong>{convocatoria[idioma]["Organizadores"]}</strong><br>
-                {convocatoria[idioma]["Lugar"]}<br>
-                {convocatoria[idioma]["Fecha_evento"]}
-            </p>
+        <p>
+            {convocatoria[idioma]["Descripcion"]}
+        </p>
 
-            <p>
-                {convocatoria[idioma]["Descripcion"]}
-            </p>
+        <p>
+            <strong>{convocatoria[idioma]["Envio"]}</strong>
+        </p>
 
-            <p>
-                <strong>{convocatoria[idioma]["Envio"]}</strong>
-            </p>
+        <p>
+            {convocatoria[idioma]["Limite"]}
+        </p>
 
-            <p>
-                {convocatoria[idioma]["Limite"]}
-            </p>
+        <p>
+            {convocatoria[idioma]["Idiomas"]}
+        </p>
 
-            <p>
-                {convocatoria[idioma]["Idiomas"]}
-            </p>
+        <p>
+            <strong>{convocatoria[idioma]["Deadline"]}</strong>
+        </p>
 
-            <p>
-                <strong>{convocatoria[idioma]["Deadline"]}</strong>
-            </p>
+        <p>
+            <strong>{convocatoria[idioma]["Aceptacion"]}</strong>
+        </p>
 
-            <p>
-                <strong>{convocatoria[idioma]["Aceptacion"]}</strong>
-            </p>
+        <p>
+            <a
+                href="{convocatoria[idioma]["Link"]}"
+                target="_blank"
+                style="
+                    color: #7f3213;
+                    font-weight: bold;
+                "
+            >
+                {convocatoria[idioma]["Link_text"]}
+            </a>
+        </p>
 
-            <p>
-                <a
-                    href="{convocatoria[idioma]["Link"]}"
-                    target="_blank"
-                    style="
-                        color: #7f3213;
-                        font-weight: bold;
-                    "
-                >
-                    {convocatoria[idioma]["Link_text"]}
-                </a>
-            </p>
+    </div>
+    """
 
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    st.markdown(contenido, unsafe_allow_html=True)
