@@ -127,13 +127,10 @@ opciones = option_menu(
 )
 
 if opciones == menus[idioma]["Evento"]: 
-    st.markdown( f""" <h2 style=" font-size: 32px; text-align: center; color: #2E7D32; "> {evento[idioma]["Evento"]} </h2> """, unsafe_allow_html=True ) 
-    st.write(f"📍 **{evento[idioma]['Lugar']}**") 
-    st.write(f"📅 **{evento[idioma]['Fechas']}**") 
-    st.write(f"📧 **{evento[idioma]['Correo']}**") 
-    st.subheader("Temas") 
+    st.markdown( f""" <h2 style=" font-size: 32px; text-align: center; color: #7f3213; "> {evento[idioma]["Evento"]} </h2> """, unsafe_allow_html=True ) 
+    st.markdown( f""" <p style="color: #7f3213; font-size: 18px;"> 📍 <strong>{evento[idioma]["Lugar"]}</strong> </p> <p style="color: #7f3213; font-size: 18px;"> 📅 <strong>{evento[idioma]["Fechas"]}</strong> </p> <p style="color: #7f3213; font-size: 18px;"> 📧 <strong>{evento[idioma]["Correo"]}</strong> </p> <h3 style="color: #7f3213;"> Temas </h3> """, unsafe_allow_html=True ) 
     for tema in evento[idioma]["Temas"]: 
-        st.markdown(f"- {tema}")
+        st.markdown( f""" <p style=" color: #7f3213; font-size: 17px; margin-left: 20px; "> • {tema} </p> """, unsafe_allow_html=True )
         
 elif opciones == menus[idioma]["Amazonicas"]: 
   st.header(menus[idioma]["Amazonicas"]) 
