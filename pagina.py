@@ -78,7 +78,11 @@ evento = {
             "Lengua y sociedad: revitalización lingüística en contextos de alta obsolescencia",
             "Sesión general: tema libre"
         ],
-        "Correo": "amazonicasXI@gmail.com"
+        "Correo": "amazonicasXI@gmail.com",
+        "Lugar_label": "Lugar",
+        "Fechas_label": "Fechas",
+        "Correo_label": "Correo",
+        "Temas_label": "Temas"
     },
 
     "English": {
@@ -91,7 +95,11 @@ evento = {
             "Language and Society: language revitalization in high obsolescence contexts",
             "General Session: free topic"
         ],
-        "Correo": "amazonicasXI@gmail.com"
+        "Correo": "amazonicasXI@gmail.com",
+        "Lugar_label": "Location",
+        "Fechas_label": "Dates",
+        "Correo_label": "Email",
+        "Temas_label": "Topics"
     },
 
     "Português": {
@@ -104,10 +112,13 @@ evento = {
             "Língua e sociedade: revitalização linguística em contextos de elevada obsolescência",
             "Sessão geral: tema livre"
         ],
-        "Correo": "amazonicasXI@gmail.com"
+        "Correo": "amazonicasXI@gmail.com",
+        "Lugar_label": "Local",
+        "Fechas_label": "Datas",
+        "Correo_label": "E-mail",
+        "Temas_label": "Temas"
     }
 }
-
 
 opciones = option_menu(
     menu_title=None,
@@ -128,7 +139,7 @@ opciones = option_menu(
 
 if opciones == menus[idioma]["Evento"]: 
     st.markdown( f""" <h2 style=" font-size: 32px; text-align: center; color: #7f3213; "> {evento[idioma]["Evento"]} </h2> """, unsafe_allow_html=True ) 
-    st.markdown( f""" <p style="color: #7f3213; font-size: 18px;"> 📍 <strong>{evento[idioma]["Lugar"]}</strong> </p> <p style="color: #7f3213; font-size: 18px;"> 📅 <strong>{evento[idioma]["Fechas"]}</strong> </p> <p style="color: #7f3213; font-size: 18px;"> 📧 <strong>{evento[idioma]["Correo"]}</strong> </p> <h3 style="color: #7f3213;"> Temas </h3> """, unsafe_allow_html=True ) 
+    st.markdown( f""" <p style="color: #7f3213; font-size: 18px;"> 📍 <strong>{evento[idioma]["Lugar_label"]}:</strong> {evento[idioma]["Lugar"]} </p> <p style="color: #7f3213; font-size: 18px;"> 📅 <strong>{evento[idioma]["Fechas_label"]}:</strong> {evento[idioma]["Fechas"]} </p> <p style="color: #7f3213; font-size: 18px;"> 📧 <strong>{evento[idioma]["Correo_label"]}:</strong> {evento[idioma]["Correo"]} </p> <h3 style="color: #7f3213;"> {evento[idioma]["Temas_label"]} </h3> """, unsafe_allow_html=True ) 
     for tema in evento[idioma]["Temas"]: 
         st.markdown( f""" <p style=" color: #7f3213; font-size: 17px; margin-left: 20px; "> • {tema} </p> """, unsafe_allow_html=True )
         
