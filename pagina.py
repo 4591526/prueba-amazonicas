@@ -293,27 +293,27 @@ elif opciones == menus[idioma]["Convocatoria"]:
         </p>
         """, unsafe_allow_html=True)
     st.markdown(f"""
-        <p style="color: #7f3213; font-size: 17px;">
+        <p style="color: #7f3213; font-size: 18px;">
             {convocatoria[idioma]["Descripcion"]}
         </p>
 
-        <p style="color: #7f3213; font-size: 17px;">
+        <p style="color: #7f3213; font-size: 18px;">
             {convocatoria[idioma]["Envio"]}
         </p>
 
-        <p style="color: #7f3213; font-size: 17px;">
+        <p style="color: #7f3213; font-size: 18px;">
             {convocatoria[idioma]["Limite"]}
         </p>
 
-        <p style="color: #7f3213; font-size: 17px;">
+        <p style="color: #7f3213; font-size: 18px;">
             {convocatoria[idioma]["Idiomas"]}
         </p>
 
-        <p style="color: #7f3213; font-size: 17px;">
+        <p style="color: #7f3213; font-size: 18px;">
             <strong>{convocatoria[idioma]["Deadline"]}</strong>
         </p>
 
-        <p style="color: #7f3213; font-size: 17px;">
+        <p style="color: #7f3213; font-size: 18px;">
             <strong>{convocatoria[idioma]["Aceptacion"]}</strong>
         </p>""",unsafe_allow_html=True)
 
