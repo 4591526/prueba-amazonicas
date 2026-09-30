@@ -18,7 +18,24 @@ with col2:
         
 #st.markdown(f'<h1 style="font-size: 60px; text-align: center; color: green">Amazonicas XI</h1>', unsafe_allow_html=True)
 
-idioma = st.selectbox( "Idioma:", ["Español", "English", "Português"] )
+st.markdown(
+    """
+    <p style="
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+    ">
+        Language:
+    </p>
+    """,
+    unsafe_allow_html=True
+)
+
+idioma = st.selectbox(
+    "",
+    ["Español", "English", "Português"],
+    label_visibility="collapsed"
+)
 
 menus = { "Español": {"Evento": "Evento", "Amazonicas": "Amazonicas", "Programación": "Programación", "Organizadores": "Organizadores", 
                       "Convocatoria": "Convocatoria", "Cursos": "Cursos", "Información": "Información"}, 
