@@ -298,13 +298,9 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <div style="
-            color: #7f3213 !important;
-            font-size: 18px;
-            line-height: 1.6;
-        ">
+        <p style="color: #7f3213;font-size: 18px;">
             {convocatoria[idioma]["Descripcion"]}
-        </div>
+        </p>
         """,
         unsafe_allow_html=True
     )
