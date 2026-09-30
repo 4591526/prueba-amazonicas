@@ -445,7 +445,8 @@ opciones = option_menu(
     orientation="horizontal"
 )
 
-if opciones == menus[idioma]["Evento"]: st.markdown( f""" <h2 style=" font-size: 32px; text-align: center; color: #2E7D32; "> {evento[idioma]["Evento"]} </h2> """, unsafe_allow_html=True ) 
+if opciones == menus[idioma]["Evento"]: 
+    st.markdown( f""" <h2 style=" font-size: 32px; text-align: center; color: #2E7D32; "> {evento[idioma]["Evento"]} </h2> """, unsafe_allow_html=True ) 
     st.write(f"📍 **{evento[idioma]['Lugar']}**") 
     st.write(f"📅 **{evento[idioma]['Fechas']}**") 
     st.write(f"📧 **{evento[idioma]['Correo']}**") 
