@@ -6,7 +6,7 @@ import random
 from streamlit_option_menu import option_menu
 
 st.set_page_config(
-    page_title="Amazonicas",
+    page_title="Amazonicas XI",
     page_icon="🌿",
     layout="wide"
 )
@@ -14,7 +14,7 @@ st.set_page_config(
 col1, col2, col3 = st.columns([1,3,1], gap="small")
 with col2:
     st.image("logo_amazonicas.png", width=1500)
-    st.image("banner_amazonicas.png", width=1800)
+    #st.image("banner_amazonicas.png", width=1800)
         
 #st.markdown(f'<h1 style="font-size: 60px; text-align: center; color: green">Amazonicas XI</h1>', unsafe_allow_html=True)
 
@@ -138,7 +138,7 @@ convocatoria = {
         """,
 
         "Envio": """
-        Un documento en formato PDF, máximo 1 página excluyendo las referencias,
+        Envío de resúmenes: Un documento en formato PDF, máximo 1 página excluyendo las referencias,
         márgenes de 1 pulgada, fuente de 12 puntos y espacio sencillo. Incluya título.
         Las referencias y ejemplos pueden ser entregados en una página separada.
         No incluya nombres o apellidos de autores ni otra información que identifique
@@ -174,7 +174,7 @@ convocatoria = {
         """,
 
         "Envio": """
-        One document in PDF format, at most 1 page excluding references,
+        Abstract submission: One document in PDF format, at most 1 page excluding references,
         1-inch margins, 12pt font, and single-spaced. Include a title.
         References and examples can be provided on an additional page.
         Do not include author names or other identifying information in the abstract.
@@ -210,7 +210,7 @@ convocatoria = {
         """,
 
         "Envio": """
-        Um documento em formato PDF, máximo de 1 página sem as referências,
+        Submissão de resumos: Um documento em formato PDF, máximo de 1 página sem as referências,
         margens de 1 polegada (2,54 cm), fonte 12 e espaço simples.
         Incluir título. As referências e exemplos podem constar em uma página
         separada. Não incluir os nomes dos autores ou outras informações de
