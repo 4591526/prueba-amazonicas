@@ -862,7 +862,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
     st.markdown(
         f"""
         <p style="color:#7f3213; font-size:18px;">
-            <strong>{convocatoria_2[idioma]["Envio"]}</strong>
+            <strong>{convocatoria_3[idioma]["Envio"]}</strong>
         </p>
         """,
         unsafe_allow_html=True
@@ -871,7 +871,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
     st.markdown(
         f"""
         <p style="color:#7f3213; font-size:18px;">
-            {convocatoria_2[idioma]["Limite"]}
+            {convocatoria_3[idioma]["Limite"]}
         </p>
         """,
         unsafe_allow_html=True
@@ -880,7 +880,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
     st.markdown(
         f"""
         <p style="color:#7f3213; font-size:18px;">
-            {convocatoria_2[idioma]["Idiomas"]}
+            {convocatoria_3[idioma]["Idiomas"]}
         </p>
         """,
         unsafe_allow_html=True
@@ -889,7 +889,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
     st.markdown(
         f"""
         <p style="color:#7f3213; font-size:18px;">
-            <strong>{convocatoria_2[idioma]["Deadline"]}</strong>
+            <strong>{convocatoria_3[idioma]["Deadline"]}</strong>
         </p>
         """,
         unsafe_allow_html=True
@@ -898,7 +898,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
     st.markdown(
         f"""
         <p style="color:#7f3213; font-size:18px;">
-            <strong>{convocatoria_2[idioma]["Aceptacion"]}</strong>
+            <strong>{convocatoria_3[idioma]["Aceptacion"]}</strong>
         </p>
         """,
         unsafe_allow_html=True
@@ -907,10 +907,10 @@ elif opciones == menus[idioma]["Convocatoria"]:
     st.markdown(
         f"""
         <p style="font-size:18px;">
-            <a href="{convocatoria_2[idioma]["Link"]}"
+            <a href="{convocatoria_3[idioma]["Link"]}"
                target="_blank"
                style="color:#7f3213; font-weight:bold;">
-                {convocatoria_2[idioma]["Link_text"]}
+                {convocatoria_3[idioma]["Link_text"]}
             </a>
         </p>
         """,
