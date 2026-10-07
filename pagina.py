@@ -156,7 +156,6 @@ evento = {
 
 convocatoria = {
     "Español": {
-        "Titulo": "Convocatoria de resúmenes",
         "Subtitulo": "AMAZONICAS XI 2027 – Sesión General",
         "Organizadores": "Organizadores: Elder Lane, Kasia Wojtylak, Sidi Facundes",
         "Lugar": "Pontificia Universidad Católica del Perú, Lima, Perú",
@@ -193,7 +192,6 @@ convocatoria = {
     },
 
     "English": {
-        "Titulo": "Call for abstracts",
         "Subtitulo": "AMAZONICAS XI 2027 – General Session",
         "Organizadores": "Organizers: Elder Lane, Kasia Wojtylak, Sidi Facundes",
         "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
@@ -228,7 +226,6 @@ convocatoria = {
     },
 
     "Português": {
-        "Titulo": "Chamada para submissão de resumos",
         "Subtitulo": "AMAZONICAS XI 2027 – Sessão Geral",
         "Organizadores": "Organizadores: Elder Lane, Kasia Wojtylak, Sidi Facundes",
         "Lugar": "Pontifícia Universidade Católica do Peru, Lima, Peru",
@@ -267,7 +264,6 @@ convocatoria = {
 
 convocatoria_2 = {
     "Español": {
-        "Titulo": "Convocatoria de resúmenes",
         "Subtitulo": "AMAZONICAS XI – Sesión de Morfosintaxis: Oraciones complejas",
         "Organizadores": "Organizadoras: Luciana Storto (Universidade de São Paulo) y Suzi Lima (University of Toronto y PPGL-UFRR)",
         "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
@@ -356,7 +352,6 @@ convocatoria_2 = {
 
 
     "English": {
-        "Titulo": "Call for abstracts",
         "Subtitulo": "AMAZONICAS XI – Morphosyntax Session: Complex sentences",
         "Organizadores": "Organizers: Luciana Storto (Universidade de São Paulo) & Suzi Lima (University of Toronto and PPGL-UFRR)",
         "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
@@ -439,7 +434,6 @@ convocatoria_2 = {
 
 
     "Português": {
-        "Titulo": "Chamada para submissão de resumos",
         "Subtitulo": "AMAZONICAS XI – Sessão de Morfossintaxe: Orações complexas",
         "Organizadores": "Organizadoras: Luciana Storto (Universidade de São Paulo) e Suzi Lima (University of Toronto e PPGL-UFRR)",
         "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
@@ -562,8 +556,7 @@ convocatoria_3 = {
         Durante el simposio se pretende examinar conjuntamente los datos, discutir
         métodos y análisis y, posiblemente, convertir las presentaciones en una
         propuesta para un volumen editado sobre la prosodia de las lenguas
-        indígenas amazónicas.</p>
-        """,
+        indígenas amazónicas.</p>""",
 
         "Temas": """
         Los trabajos pueden abordar fenómenos segmentales y suprasegmentales,
@@ -883,8 +876,6 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.divider()
 
-    st.markdown(f"""<h2 style="color:#7f3213; text-align:center; font-size:32px;">{convocatoria_2[idioma]["Titulo"]}</h2>""",unsafe_allow_html=True)
-
     st.markdown(f"""<h3 style="color:#7f3213; text-align:center;">{convocatoria_2[idioma]["Subtitulo"]}</h3>""",unsafe_allow_html=True)
 
     st.markdown(
@@ -965,8 +956,6 @@ elif opciones == menus[idioma]["Convocatoria"]:
     )
     
     st.divider()
-
-    st.markdown(f"""<h2 style="color:#7f3213; text-align:center; font-size:32px;">{convocatoria[idioma]["Titulo"]}</h2>""",unsafe_allow_html=True)
 
     st.markdown(f"""<h3 style="color:#7f3213; text-align:center;">{convocatoria[idioma]["Subtitulo"]}</h3>""",unsafe_allow_html=True)
 
