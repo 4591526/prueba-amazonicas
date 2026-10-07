@@ -659,7 +659,6 @@ elif opciones == menus[idioma]["Convocatoria"]:
         <p style="color:#7f3213; text-align:center; font-size:18px;">
             <strong>{convocatoria_2[idioma]["Organizadores"]}</strong><br>
             {convocatoria_2[idioma]["Lugar"]}<br>
-            {convocatoria_2[idioma]["Fecha_evento"]}
         </p>
         """,
         unsafe_allow_html=True)
