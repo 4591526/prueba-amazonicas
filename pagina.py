@@ -265,6 +265,279 @@ convocatoria = {
     }
 }
 
+convocatoria_2 = {
+    "Español": {
+        "Titulo": "Convocatoria de resúmenes",
+        "Subtitulo": "AMAZONICAS XI – Sesión de Morfosintaxis: Oraciones complejas",
+        "Organizadores": "Organizadoras: Luciana Storto (Universidade de São Paulo) y Suzi Lima (University of Toronto y PPGL-UFRR)",
+        "Lugar": "AMAZONICAS XI",
+
+        "Descripcion": """
+        Las oraciones complejas pueden definirse de distintas maneras según los
+        diferentes marcos lingüísticos, pero todas comparten una estrategia que
+        implica el uso de más de un verbo en una oración. Se invita a lingüistas
+        que trabajan con lenguas amazónicas a presentar resúmenes que describan,
+        analicen o expliquen fenómenos de coordinación, cláusulas relativas,
+        adverbiales o de complemento desde una perspectiva sincrónica o diacrónica.
+
+        La coordinación implica dos cláusulas independientes, mientras que las
+        cláusulas relativas, adverbiales y de complemento dependen de una cláusula
+        independiente. Desde el marco tipológico de la subordinación de Cristofaro
+        (2005), esta dependencia debe ser, como mínimo, semántica, mientras que
+        en los marcos formales debe ser sintáctica.
+
+        También se invita especialmente a presentar trabajos sobre las metodologías
+        utilizadas para identificar, clasificar y describir estos fenómenos.
+        """,
+
+        "Coordinacion": """
+        Según Haspelmath (2007), las cláusulas coordinadas pueden presentar un
+        elemento coordinador (coordinación sindética) o no presentarlo
+        (coordinación asindética). La coordinación sindética puede clasificarse
+        en ocho tipos según el número de elementos coordinadores y su posición
+        respecto de las cláusulas. Semánticamente, los elementos coordinadores
+        pueden expresar conjunción (y), disyunción (o) o coordinación adversativa
+        (pero).
+        """,
+
+        "Relativas": """
+        Las cláusulas relativas suelen funcionar como modificadores de un nombre.
+        Entre las estrategias utilizadas para formar relativas se encuentran el
+        uso de un relativizador y la nominalización. Camacho y Giménez (2017)
+        señalan que 18 de las 30 lenguas indígenas analizadas en su estudio
+        utilizaban nominalizaciones.
+
+        Las relativas también pueden clasificarse según la posición del núcleo.
+        Las relativas externas al núcleo pueden ser prenominales (Relativa N),
+        como en mandarín, o posnominales (N Relativa), como en inglés. Dryer et al.
+        (2013) analizaron 824 lenguas y encontraron 579 lenguas con relativas
+        posnominales, 141 con relativas prenominales y 24 con relativas internas
+        al núcleo.
+
+        Otra clasificación tipológica (Payne 1997) distingue entre una estrategia
+        de omisión (gap), en la que el sintagma nominal correferencial con el
+        núcleo no se expresa dentro de la relativa, y una estrategia explícita,
+        en la que dicho sintagma nominal presenta una realización fonológica.
+        """,
+
+        "Adverbiales": """
+        Las cláusulas adverbiales funcionan como modificadores o adjuntos de
+        cláusulas independientes y pueden expresar nociones como tiempo,
+        condición, razón, propósito u objetivo.
+        """,
+
+        "Complemento": """
+        Las cláusulas de complemento funcionan como complementos del verbo de la
+        cláusula independiente. Los verbos que seleccionan estas cláusulas pueden
+        expresar modalidad (obligación, posibilidad, capacidad), fase (comenzar,
+        detener, continuar), manipulación (ordenar, persuadir), deseo (querer,
+        desear), percepción (oír, ver), conocimiento (saber, percibir), actitud
+        proposicional (pensar, creer) y enunciación (decir, hablar).
+        """,
+
+        "Envio": """
+        Envío de resúmenes: Un documento en formato PDF, de una página como máximo
+        sin contar las referencias, con márgenes de 1 pulgada, fuente de 12 puntos
+        y espacio sencillo. Incluya un título.
+
+        Las referencias y los ejemplos pueden proporcionarse en una página adicional.
+        No incluya los nombres de los autores ni otra información identificativa
+        en el resumen.
+        """,
+
+        "Limite": "Se permite un resumen de autor único y un resumen en coautoría.",
+
+        "Idiomas": "El resumen y la ponencia pueden ser en español, portugués o inglés.",
+
+        "Deadline": "Fecha límite de envío: 6 de diciembre de 2026",
+
+        "Aceptacion": "Notificación de aceptación: 4 de enero de 2027",
+
+        "Link": "https://app.oxfordabstracts.com/stages/83705/submitter",
+
+        "Link_text": "Enlace para envío de resúmenes"
+    },
+
+
+    "English": {
+        "Titulo": "Call for abstracts",
+        "Subtitulo": "AMAZONICAS XI – Morphosyntax Session: Complex sentences",
+        "Organizadores": "Organizers: Luciana Storto (Universidade de São Paulo) & Suzi Lima (University of Toronto and PPGL-UFRR)",
+        "Lugar": "AMAZONICAS XI",
+
+        "Descripcion": """
+        Complex sentences can be defined differently across linguistic frameworks,
+        but they all share a strategy involving the use of more than one verb in
+        a sentence. Linguists working on Amazonian languages are invited to submit
+        abstracts describing, analyzing, or explaining coordination, relative
+        clauses, adverbial clauses, or complement clauses from a synchronic or
+        diachronic perspective.
+
+        Coordination involves two independent clauses, whereas relative, adverbial,
+        and complement clauses depend on an independent clause. In Cristofaro's
+        (2005) typological framework of subordination, this dependency must be at
+        least semantic, whereas in formal frameworks it must be syntactic.
+
+        Contributions discussing methodologies used to identify, classify, and
+        describe these phenomena are also especially encouraged.
+        """,
+
+        "Coordinacion": """
+        According to Haspelmath (2007), coordinate clauses may contain a coordinating
+        element (syndetic coordination) or not (asyndetic coordination). Syndetic
+        coordination can be divided into eight types depending on the number of
+        coordinating elements and their position with respect to each clause.
+        Semantically, coordinating elements may express conjunction (and),
+        disjunction (or), or adversative coordination (but).
+        """,
+
+        "Relativas": """
+        Relative clauses frequently function as modifiers of nouns. Two strategies
+        are commonly used to form relatives: the use of a relativizer and
+        nominalization. Camacho & Gimenez (2017) report that 18 of the 30
+        Indigenous languages analyzed in their study used nominalizations.
+
+        Relative clauses can also be classified according to the position of the
+        head. Head-external relatives may be prenominal (Relative N), as in
+        Mandarin, or postnominal (N Relative), as in English. Dryer et al. (2013)
+        analyzed 824 languages and found 579 postnominal, 141 prenominal, and
+        24 head-internal relative clauses.
+
+        Another typological classification (Payne 1997) distinguishes between a
+        gap strategy, in which the noun phrase coreferential with the head is not
+        expressed inside the relative clause, and an overt strategy, in which the
+        noun phrase is phonologically expressed.
+        """,
+
+        "Adverbiales": """
+        Adverbial clauses function as modifiers or adjuncts of independent clauses
+        and may express notions such as time, condition, reason, or purpose/goal.
+        """,
+
+        "Complemento": """
+        Complement clauses function as complements of the verb in the independent
+        clause. These verbs may express Modality (obligation, possibility,
+        capacity), Phase (start, stop, continue), Manipulation (order, persuade),
+        Desideratives (want, desire), Perception (hear, see), Knowledge (know,
+        perceive), Propositional Attitude (think, believe), and Enunciation
+        (say, speak).
+        """,
+
+        "Envio": """
+        Abstract submission: One document in PDF format, at most 1 page excluding
+        references, with 1-inch margins, 12pt font, and single spacing. Include a
+        title.
+
+        References and examples can be provided on an additional page. Do not
+        include author names or other identifying information in the abstract.
+        """,
+
+        "Limite": "One single-authored and one co-authored abstract are allowed.",
+
+        "Idiomas": "The abstract and the talk can be in Spanish, Portuguese, or English.",
+
+        "Deadline": "Deadline for submission: December 6, 2026",
+
+        "Aceptacion": "Notification of acceptance: January 4, 2027",
+
+        "Link": "https://app.oxfordabstracts.com/stages/83705/submitter",
+
+        "Link_text": "Abstract submission link"
+    },
+
+
+    "Português": {
+        "Titulo": "Chamada para submissão de resumos",
+        "Subtitulo": "AMAZONICAS XI – Sessão de Morfossintaxe: Orações complexas",
+        "Organizadores": "Organizadoras: Luciana Storto (Universidade de São Paulo) e Suzi Lima (University of Toronto e PPGL-UFRR)",
+        "Lugar": "AMAZONICAS XI",
+
+        "Descripcion": """
+        As orações complexas podem ser definidas de diferentes formas nos diversos
+        quadros linguísticos, mas todas compartilham uma estratégia que envolve o
+        uso de mais de um verbo em uma oração. Convidamos linguistas que trabalham
+        com línguas amazônicas a apresentar resumos que descrevam, analisem ou
+        expliquem fenômenos de coordenação, orações relativas, adverbiais ou
+        completivas, numa perspectiva sincrônica ou diacrônica.
+
+        A coordenação envolve duas orações independentes, enquanto as orações
+        relativas, adverbiais e completivas dependem de uma oração independente.
+        No quadro tipológico da subordinação de Cristofaro (2005), essa dependência
+        deve ser, no mínimo, semântica, enquanto nos quadros formais deve ser
+        sintática.
+
+        Trabalhos que discutam as metodologias utilizadas para identificar,
+        classificar e descrever esses fenômenos também são especialmente
+        incentivados.
+        """,
+
+        "Coordinacion": """
+        Segundo Haspelmath (2007), as orações coordenadas podem apresentar um
+        elemento coordenador (coordenação sindética) ou não (coordenação assindética).
+        A coordenação sindética pode ser dividida em oito tipos, dependendo do
+        número de elementos coordenadores e de sua posição em relação a cada oração.
+        Semanticamente, os elementos coordenadores podem expressar conjunção (e),
+        disjunção (ou) ou coordenação adversativa (mas).
+        """,
+
+        "Relativas": """
+        As orações relativas frequentemente funcionam como modificadores de nomes.
+        Duas estratégias são utilizadas com frequência para formar relativas:
+        o uso de um relativizador e a nominalização. Camacho e Giménez (2017)
+        relatam que 18 das 30 línguas indígenas analisadas em seu estudo utilizavam
+        nominalizações.
+
+        As orações relativas também podem ser classificadas de acordo com a posição
+        do núcleo. As relativas externas ao núcleo podem ser pré-nominais
+        (Relativa N), como no mandarim, ou pós-nominais (N Relativa), como no inglês.
+        Dryer et al. (2013) analisaram 824 línguas e encontraram 579 relativas
+        pós-nominais, 141 pré-nominais e 24 internas ao núcleo.
+
+        Outra classificação tipológica (Payne 1997) distingue entre uma estratégia
+        de omissão (gap), na qual o sintagma nominal correferente ao núcleo não é
+        expresso dentro da oração relativa, e uma estratégia explícita, na qual o
+        sintagma nominal é realizado fonologicamente.
+        """,
+
+        "Adverbiales": """
+        As orações adverbiais funcionam como modificadores ou adjuntos de orações
+        independentes e podem expressar noções como tempo, condição, razão ou
+        propósito/objetivo.
+        """,
+
+        "Complemento": """
+        As orações completivas funcionam como complementos do verbo na oração
+        independente. Esses verbos podem expressar modalidade (obrigação,
+        possibilidade, capacidade), fase (começar, parar, continuar), manipulação
+        (ordenar, persuadir), desejo (querer, desejar), percepção (ouvir, ver),
+        conhecimento (saber, perceber), atitude proposicional (pensar, acreditar)
+        e enunciação (dizer, falar).
+        """,
+
+        "Envio": """
+        Submissão de resumos: Um documento em formato PDF, com no máximo uma página,
+        sem contar as referências, com margens de 1 polegada (2,54 cm), fonte de
+        12 pontos e espaçamento simples. Incluir um título.
+
+        As referências e os exemplos podem constar em uma página separada. Não
+        incluir os nomes dos autores ou outras informações de identificação no
+        resumo.
+        """,
+
+        "Limite": "É permitido um resumo de autoria única e um resumo em coautoria.",
+
+        "Idiomas": "O resumo e a apresentação podem ser em espanhol, português ou inglês.",
+
+        "Deadline": "Prazo para submissão: 6 de dezembro de 2026",
+
+        "Aceptacion": "Notificação de aceitação: 4 de janeiro de 2027",
+
+        "Link": "https://app.oxfordabstracts.com/stages/83705/submitter",
+
+        "Link_text": "Link para submissão de resumos"
+    }
+}
+
 opciones = option_menu(
     menu_title=None,
     options=opciones_menu,
@@ -374,3 +647,24 @@ elif opciones == menus[idioma]["Convocatoria"]:
         """,
         unsafe_allow_html=True
     )
+
+    t = convocatoria_2[st.session_state.idioma]
+
+    st.title(t["Titulo"])
+    st.subheader(t["Subtitulo"])
+    st.write(t["Organizadores"])
+    
+    st.markdown(t["Descripcion"])
+    
+    st.markdown(t["Coordinacion"])
+    st.markdown(t["Relativas"])
+    st.markdown(t["Adverbiales"])
+    st.markdown(t["Complemento"])
+    
+    st.markdown(t["Envio"])
+    st.markdown(t["Limite"])
+    st.markdown(t["Idiomas"])
+    st.markdown(t["Deadline"])
+    st.markdown(t["Aceptacion"])
+    
+    st.link_button(t["Link_text"], t["Link"])
