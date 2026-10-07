@@ -88,7 +88,7 @@ menus = { "Español": {"Evento": "Evento", "Amazonicas": "Amazonicas", "Programa
          "English": {"Evento": "Event", "Amazonicas": "Amazonicas", "Programación": "Program", "Organizadores": "Organizers",
                      "Convocatoria": "Call for abstracts", "Cursos": "Courses", "Información": "Information"}, 
          "Português": {"Evento": "Evento", "Amazonicas": "Amazonicas", "Programación": "Programação", "Organizadores": "Organizadores",
-                       "Convocatoria": "Chamada submissão de resumos", "Cursos": "Coursos", "Información": "Informações"} }
+                       "Convocatoria": "Chamada para resumos", "Cursos": "Coursos", "Información": "Informações"} }
 
 opciones_menu = [
     menus[idioma]["Evento"],
@@ -271,7 +271,7 @@ convocatoria_2 = {
         "Subtitulo": "AMAZONICAS XI – Sesión de Morfosintaxis: Oraciones complejas",
         "Organizadores": "Organizadoras: Luciana Storto (Universidade de São Paulo) y Suzi Lima (University of Toronto y PPGL-UFRR)",
         "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
-        "Fecha_evento": "June 15 to 18, 2027",
+        "Fecha_evento": "15 al 18 de junio de 2027",
 
         "Descripcion": """
         Las <strong>oraciones complejas</strong> pueden definirse de distintas maneras según los
@@ -443,7 +443,7 @@ convocatoria_2 = {
         "Subtitulo": "AMAZONICAS XI – Sessão de Morfossintaxe: Orações complexas",
         "Organizadores": "Organizadoras: Luciana Storto (Universidade de São Paulo) e Suzi Lima (University of Toronto e PPGL-UFRR)",
         "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
-        "Fecha_evento": "June 15 to 18, 2027",
+        "Fecha_evento": "15 a 18 de junho de 2027",
 
         "Descripcion": """
         As <strong>orações complexas</strong> podem ser definidas de diferentes formas nos diversos
@@ -521,6 +521,288 @@ convocatoria_2 = {
     }
 }
 
+convocatoria_3 = {
+    "Español": {
+        "Titulo": "Convocatoria de resúmenes",
+        "Subtitulo": "AMAZONICAS XI 2027 – Simposio de Fonología",
+        "Organizadores": "Organizadores: Spike Gildea, Uli Reich, Sebastian Drude",
+        "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
+        "Fecha_evento": "15 al 18 de junio de 2027",
+
+        "Descripcion": """
+        <strong>Fonología – con especial énfasis en la prosodia y la entonación</strong>
+
+        Invitamos a presentar resúmenes sobre cualquier tema relacionado con la
+        fonética y la fonología de las lenguas indígenas de la Amazonía: fenómenos
+        segmentales y suprasegmentales, tono, acento y nasalidad, morfofonología y
+        las interfaces con la morfología y la sintaxis, variación y cambio,
+        fonología histórica y comparativa, tipología, contacto lingüístico, así
+        como enfoques experimentales, computacionales o documentales.
+
+        Se aceptan contribuciones de todos los marcos teóricos, desde estudios de
+        caso en profundidad de una sola lengua hasta trabajos comparativos entre
+        familias y regiones.
+
+        Dentro de este amplio alcance, damos especial bienvenida a las
+        contribuciones sobre prosodia, y sobre la entonación en particular,
+        entendida en sentido amplio para abarcar no solo las melodías, los
+        contornos tonales y de altura, sino también la temporalidad, el ritmo y
+        la prominencia.
+
+        Si bien las lenguas amazónicas son bien conocidas por sus ricos sistemas
+        de tono y acento a nivel de palabra, el funcionamiento de la melodía y la
+        prominencia más allá de la palabra sigue siendo en gran medida inexplorado.
+
+        Entre las preguntas que nos gustaría abordar se incluyen:
+
+        • ¿Cuáles son los hallazgos y los retos más importantes o inusuales en el
+          estudio de la prosodia de las lenguas amazónicas?
+
+        • ¿Cómo interactúa la entonación con el tono léxico y el acento de altura,
+          y cómo funciona en las lenguas tonales?
+
+        • ¿Cómo se utiliza la prosodia para marcar tipos de oraciones, la estructura
+          de la información (tema, foco) o categorías como el modo y la evidencialidad?
+
+        • ¿Cómo utilizan los hablantes los recursos melódicos en la conversación
+          cotidiana y qué sucede con ellos en comunidades multilingües?
+
+        • ¿Existen patrones regionales o transferencia prosódica entre lenguas?
+
+        Se acogen explícitamente los hallazgos preliminares y los trabajos en curso.
+        Durante el simposio se pretende examinar conjuntamente los datos, discutir
+        métodos y análisis y, posiblemente, convertir las presentaciones en una
+        propuesta para un volumen editado sobre la prosodia de las lenguas
+        indígenas amazónicas.
+        """,
+
+        "Temas": """
+        Los trabajos pueden abordar fenómenos segmentales y suprasegmentales,
+        tono, acento, nasalidad, morfofonología, interfaces con la morfología y
+        la sintaxis, variación y cambio, fonología histórica y comparativa,
+        tipología, contacto lingüístico y enfoques experimentales,
+        computacionales o documentales.
+        """,
+
+        "Prosodia": """
+        Se presta especial atención a la prosodia y, particularmente, a la
+        entonación, incluyendo melodía, contornos tonales, temporalidad, ritmo
+        y prominencia. También se invita a abordar la interacción entre
+        entonación, tono léxico y acento de altura, así como el papel de la
+        prosodia en los tipos de oración, la estructura informativa, el modo,
+        la evidencialidad, la conversación cotidiana y las comunidades
+        multilingües.
+        """,
+
+        "Envio": """
+        Envío de resúmenes: Un documento en formato PDF, de un máximo de 1 página
+        sin contar las referencias, con márgenes de 1 pulgada, fuente de 12 puntos
+        y a espacio sencillo. Incluya un título.
+
+        Las referencias y los ejemplos pueden proporcionarse en una página adicional.
+        No incluya los nombres de los autores ni otra información identificativa
+        en el resumen.
+        """,
+
+        "Limite": "Se permite un resumen de autor único y otro en coautoría.",
+
+        "Idiomas": "El resumen y la ponencia pueden estar en español, portugués o inglés.",
+
+        "Deadline": "Fecha límite de presentación: 6 de diciembre de 2026",
+
+        "Aceptacion": "Notificación de aceptación: 4 de enero de 2027",
+
+        "Link": "https://app.oxfordabstracts.com/stages/83705/submitter",
+
+        "Link_text": "Enlace para envío de resúmenes"
+    },
+
+
+    "English": {
+        "Titulo": "Call for abstracts",
+        "Subtitulo": "AMAZONICAS XI 2027 – Symposium Phonology",
+        "Organizadores": "Organizers: Spike Gildea, Uli Reich, Sebastian Drude",
+        "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
+        "Fecha_evento": "June 15 to 18, 2027",
+
+        "Descripcion": """
+        <strong>Phonology – with a special focus on Prosody and Intonation</strong>
+
+        We invite abstracts on any topic in the phonetics and phonology of the
+        Indigenous languages of Amazonia: segmental and suprasegmental phenomena,
+        tone, stress and nasality, morphophonology and the interfaces with
+        morphology and syntax, variation and change, historical and comparative
+        phonology, typology, language contact, and experimental, computational
+        or documentary approaches.
+
+        Contributions from all theoretical frameworks are welcome, from in-depth
+        case studies of a single language to comparative work across families
+        and regions.
+
+        Within this broad scope, we especially welcome contributions on prosody,
+        and intonation in particular, understood broadly to cover not only
+        tunes, melody and pitch contours but also timing, rhythm and prominence.
+
+        While Amazonian languages are well known for their rich word-level tone
+        and accent systems, how melody and prominence work beyond the word remains
+        largely unexplored.
+
+        Questions we would like to address include:
+
+        • What are the most important or unusual findings and challenges in
+          studying prosody in Amazonian languages?
+
+        • How does intonation interact with lexical tone and pitch accent, and
+          how does it work in tonal languages?
+
+        • How is prosody used to mark sentence types, information structure
+          (topic, focus), or categories such as mood and evidentiality?
+
+        • How do speakers deploy melodic resources in everyday conversation,
+          and what happens to them in multilingual communities?
+
+        • Are there areal patterns or prosodic transfer between languages?
+
+        Preliminary findings and work in progress are explicitly welcome. During
+        the symposium, we intend to examine each other's data, discuss methods
+        and analyses, and possibly develop the presentations into a proposal
+        for an edited volume on the prosody of Amazonian Indigenous languages.
+        """,
+
+        "Topics": """
+        Contributions may address segmental and suprasegmental phenomena, tone,
+        stress, nasality, morphophonology, interfaces with morphology and syntax,
+        variation and change, historical and comparative phonology, typology,
+        language contact, and experimental, computational or documentary
+        approaches.
+        """,
+
+        "Prosody": """
+        Particular attention is given to prosody and, especially, intonation,
+        including melody, pitch contours, timing, rhythm and prominence.
+        Contributions may also address the interaction between intonation,
+        lexical tone and pitch accent, as well as the role of prosody in sentence
+        types, information structure, mood, evidentiality, everyday conversation,
+        and multilingual communities.
+        """,
+
+        "Envio": """
+        Abstract submission: One document in PDF format, at most 1 page excluding
+        references, with 1-inch margins, 12pt font, and single spacing. Include
+        a title.
+
+        References and examples can be provided in an additional page. Do not
+        include author names or other identifying information in the abstract.
+        """,
+
+        "Limite": "One single-authored and one co-authored abstract are allowed.",
+
+        "Idiomas": "The abstract and the talk can be in Spanish, Portuguese, or English.",
+
+        "Deadline": "Deadline for submission: December 6, 2026",
+
+        "Aceptacion": "Notification of acceptance: January 4, 2027",
+
+        "Link": "https://app.oxfordabstracts.com/stages/83705/submitter",
+
+        "Link_text": "Abstract submission link"
+    },
+
+
+    "Português": {
+        "Titulo": "Chamada para submissão de resumos",
+        "Subtitulo": "AMAZONICAS XI 2027 – Simpósio de Fonologia",
+        "Organizadores": "Organizadores: Spike Gildea, Uli Reich, Sebastian Drude",
+        "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
+        "Fecha_evento": "15 a 18 de junho de 2027",
+
+        "Descripcion": """
+        <strong>Fonologia – com ênfase especial em prosódia e entonação</strong>
+
+        Convidamos o envio de resumos sobre qualquer tema relacionado à fonética
+        e à fonologia das línguas indígenas da Amazônia: fenômenos segmentais e
+        suprassegmentais, tom, acento e nasalidade, morfofonologia e as interfaces
+        com a morfologia e a sintaxe, variação e mudança, fonologia histórica e
+        comparativa, tipologia, contato linguístico e abordagens experimentais,
+        computacionais ou documentais.
+
+        São bem-vindas contribuições de todos os marcos teóricos, desde estudos
+        de caso aprofundados de uma única língua até trabalhos comparativos entre
+        famílias e regiões.
+
+        Dentro desse amplo escopo, acolhemos especialmente contribuições sobre
+        prosódia e, em particular, entonação, entendidas de forma ampla para
+        abranger não apenas melodias e contornos de tom, mas também temporização,
+        ritmo e proeminência.
+
+        Embora as línguas amazônicas sejam bem conhecidas por seus ricos sistemas
+        de tom e acento no nível da palavra, a forma como a melodia e a
+        proeminência funcionam além da palavra permanece amplamente inexplorada.
+
+        As questões que gostaríamos de abordar incluem:
+
+        • Quais são as descobertas e os desafios mais importantes ou incomuns
+          no estudo da prosódia nas línguas amazônicas?
+
+        • Como a entonação interage com o tom lexical e o acento de altura, e
+          como ela funciona em línguas tonais?
+
+        • Como a prosódia é utilizada para marcar tipos de frases, estrutura
+          informacional (tópico, foco) ou categorias como modo e evidencialidade?
+
+        • Como os falantes utilizam recursos melódicos na conversa cotidiana e
+          o que ocorre com eles em comunidades multilíngues?
+
+        • Existem padrões regionais ou transferência prosódica entre as línguas?
+
+        Resultados preliminares e trabalhos em andamento são explicitamente
+        bem-vindos. Durante o simpósio, pretendemos examinar conjuntamente os
+        dados, discutir métodos e análises e, possivelmente, desenvolver as
+        apresentações em uma proposta para um volume coletivo sobre a prosódia
+        das línguas indígenas amazônicas.
+        """,
+
+        "Temas": """
+        As contribuições podem abordar fenômenos segmentais e suprassegmentais,
+        tom, acento, nasalidade, morfofonologia, interfaces com a morfologia e
+        a sintaxe, variação e mudança, fonologia histórica e comparativa,
+        tipologia, contato linguístico e abordagens experimentais,
+        computacionais ou documentais.
+        """,
+
+        "Prosodia": """
+        É dada especial atenção à prosódia e, particularmente, à entonação,
+        incluindo melodia, contornos de tom, temporização, ritmo e proeminência.
+        Também são bem-vindos trabalhos sobre a interação entre entonação,
+        tom lexical e acento de altura, bem como sobre o papel da prosódia nos
+        tipos de frases, estrutura informacional, modo, evidencialidade,
+        conversação cotidiana e comunidades multilíngues.
+        """,
+
+        "Envio": """
+        Envio de resumos: Um documento em formato PDF, com no máximo 1 página,
+        excluindo as referências, com margens de 1 polegada, fonte 12pt e
+        espaçamento simples. Inclua um título.
+
+        Referências e exemplos podem ser fornecidos em uma página adicional.
+        Não inclua nomes de autores ou outras informações de identificação
+        no resumo.
+        """,
+
+        "Limite": "São permitidos um resumo de autoria única e um de autoria conjunta.",
+
+        "Idiomas": "O resumo e a palestra podem ser em espanhol, português ou inglês.",
+
+        "Deadline": "Prazo para envio: 6 de dezembro de 2026",
+
+        "Aceptacion": "Notificação de aceitação: 4 de janeiro de 2027",
+
+        "Link": "https://app.oxfordabstracts.com/stages/83705/submitter",
+
+        "Link_text": "Link para envio de resumos"
+    }
+}
+
 opciones = option_menu(
     menu_title=None,
     options=opciones_menu,
@@ -557,26 +839,30 @@ elif opciones == menus[idioma]["Organizadores"]:
   st.write("Información sobre Organizadores") 
     
 elif opciones == menus[idioma]["Convocatoria"]:
-    st.markdown(f"""<h2 style="color:#7f3213; text-align:center; font-size:32px;">{convocatoria[idioma]["Titulo"]}</h2>""",unsafe_allow_html=True)
+    st.markdown(f"""<h2 style="color:#7f3213; text-align:center; font-size:32px;">{convocatoria_3[idioma]["Titulo"]}</h2>""",unsafe_allow_html=True)
 
-    st.markdown(f"""<h3 style="color:#7f3213; text-align:center;">{convocatoria[idioma]["Subtitulo"]}</h3>""",unsafe_allow_html=True)
+    st.markdown(f"""<h3 style="color:#7f3213; text-align:center;">{convocatoria_3[idioma]["Subtitulo"]}</h3>""",unsafe_allow_html=True)
 
     st.markdown(
         f"""
         <p style="color:#7f3213; text-align:center; font-size:18px;">
-            <strong>{convocatoria[idioma]["Organizadores"]}</strong><br>
-            {convocatoria[idioma]["Lugar"]}<br>
-            {convocatoria[idioma]["Fecha_evento"]}
+            <strong>{convocatoria_3[idioma]["Organizadores"]}</strong><br>
+            {convocatoria_3[idioma]["Lugar"]}<br>
+            {convocatoria_3[idioma]["Fecha_evento"]}
         </p>
         """,
         unsafe_allow_html=True)
 
-    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria[idioma]["Descripcion"]}</p>""",unsafe_allow_html=True)
-
+    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_3[idioma]["Descripcion"]}</p>""",unsafe_allow_html=True)
+    
+    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_3[idioma]["Temas"]}</p>""",unsafe_allow_html=True)
+    
+    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_3[idioma]["Prosodia"]}</p>""",unsafe_allow_html=True)
+    
     st.markdown(
         f"""
         <p style="color:#7f3213; font-size:18px;">
-            <strong>{convocatoria[idioma]["Envio"]}</strong>
+            <strong>{convocatoria_2[idioma]["Envio"]}</strong>
         </p>
         """,
         unsafe_allow_html=True
@@ -585,7 +871,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
     st.markdown(
         f"""
         <p style="color:#7f3213; font-size:18px;">
-            {convocatoria[idioma]["Limite"]}
+            {convocatoria_2[idioma]["Limite"]}
         </p>
         """,
         unsafe_allow_html=True
@@ -594,7 +880,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
     st.markdown(
         f"""
         <p style="color:#7f3213; font-size:18px;">
-            {convocatoria[idioma]["Idiomas"]}
+            {convocatoria_2[idioma]["Idiomas"]}
         </p>
         """,
         unsafe_allow_html=True
@@ -603,7 +889,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
     st.markdown(
         f"""
         <p style="color:#7f3213; font-size:18px;">
-            <strong>{convocatoria[idioma]["Deadline"]}</strong>
+            <strong>{convocatoria_2[idioma]["Deadline"]}</strong>
         </p>
         """,
         unsafe_allow_html=True
@@ -612,7 +898,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
     st.markdown(
         f"""
         <p style="color:#7f3213; font-size:18px;">
-            <strong>{convocatoria[idioma]["Aceptacion"]}</strong>
+            <strong>{convocatoria_2[idioma]["Aceptacion"]}</strong>
         </p>
         """,
         unsafe_allow_html=True
@@ -621,10 +907,10 @@ elif opciones == menus[idioma]["Convocatoria"]:
     st.markdown(
         f"""
         <p style="font-size:18px;">
-            <a href="{convocatoria[idioma]["Link"]}"
+            <a href="{convocatoria_2[idioma]["Link"]}"
                target="_blank"
                style="color:#7f3213; font-weight:bold;">
-                {convocatoria[idioma]["Link_text"]}
+                {convocatoria_2[idioma]["Link_text"]}
             </a>
         </p>
         """,
@@ -713,4 +999,79 @@ elif opciones == menus[idioma]["Convocatoria"]:
         """,
         unsafe_allow_html=True
     )
+    
+    st.divider()
 
+    st.markdown(f"""<h2 style="color:#7f3213; text-align:center; font-size:32px;">{convocatoria[idioma]["Titulo"]}</h2>""",unsafe_allow_html=True)
+
+    st.markdown(f"""<h3 style="color:#7f3213; text-align:center;">{convocatoria[idioma]["Subtitulo"]}</h3>""",unsafe_allow_html=True)
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; text-align:center; font-size:18px;">
+            <strong>{convocatoria[idioma]["Organizadores"]}</strong><br>
+            {convocatoria[idioma]["Lugar"]}<br>
+            {convocatoria[idioma]["Fecha_evento"]}
+        </p>
+        """,
+        unsafe_allow_html=True)
+
+    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria[idioma]["Descripcion"]}</p>""",unsafe_allow_html=True)
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            <strong>{convocatoria[idioma]["Envio"]}</strong>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            {convocatoria[idioma]["Limite"]}
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            {convocatoria[idioma]["Idiomas"]}
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            <strong>{convocatoria[idioma]["Deadline"]}</strong>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            <strong>{convocatoria[idioma]["Aceptacion"]}</strong>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="font-size:18px;">
+            <a href="{convocatoria[idioma]["Link"]}"
+               target="_blank"
+               style="color:#7f3213; font-weight:bold;">
+                {convocatoria[idioma]["Link_text"]}
+            </a>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
