@@ -43,11 +43,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-#idioma = st.selectbox("",
-#    ["Español", "English", "Português"],
-#    label_visibility="collapsed"
-# )
-
 st.markdown("""
 <style>
 div.stButton > button {
