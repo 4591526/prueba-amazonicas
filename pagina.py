@@ -270,7 +270,8 @@ convocatoria_2 = {
         "Titulo": "Convocatoria de resúmenes",
         "Subtitulo": "AMAZONICAS XI – Sesión de Morfosintaxis: Oraciones complejas",
         "Organizadores": "Organizadoras: Luciana Storto (Universidade de São Paulo) y Suzi Lima (University of Toronto y PPGL-UFRR)",
-        "Lugar": "AMAZONICAS XI",
+        "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
+        "Fecha_evento": "June 15 to 18, 2027",
 
         "Descripcion": """
         Las oraciones complejas pueden definirse de distintas maneras según los
@@ -363,7 +364,8 @@ convocatoria_2 = {
         "Titulo": "Call for abstracts",
         "Subtitulo": "AMAZONICAS XI – Morphosyntax Session: Complex sentences",
         "Organizadores": "Organizers: Luciana Storto (Universidade de São Paulo) & Suzi Lima (University of Toronto and PPGL-UFRR)",
-        "Lugar": "AMAZONICAS XI",
+        "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
+        "Fecha_evento": "June 15 to 18, 2027",
 
         "Descripcion": """
         Complex sentences can be defined differently across linguistic frameworks,
@@ -450,7 +452,8 @@ convocatoria_2 = {
         "Titulo": "Chamada para submissão de resumos",
         "Subtitulo": "AMAZONICAS XI – Sessão de Morfossintaxe: Orações complexas",
         "Organizadores": "Organizadoras: Luciana Storto (Universidade de São Paulo) e Suzi Lima (University of Toronto e PPGL-UFRR)",
-        "Lugar": "AMAZONICAS XI",
+        "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
+        "Fecha_evento": "June 15 to 18, 2027",
 
         "Descripcion": """
         As orações complexas podem ser definidas de diferentes formas nos diversos
@@ -659,14 +662,19 @@ elif opciones == menus[idioma]["Convocatoria"]:
         <p style="color:#7f3213; text-align:center; font-size:18px;">
             <strong>{convocatoria_2[idioma]["Organizadores"]}</strong><br>
             {convocatoria_2[idioma]["Lugar"]}<br>
+            {convocatoria_2[idioma]["Fecha_evento"]}
         </p>
         """,
         unsafe_allow_html=True)
 
     st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Descripcion"]}</p>""",unsafe_allow_html=True)
+    
     st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Coordinacion"]}</p>""",unsafe_allow_html=True)
+    
     st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Relativas"]}</p>""",unsafe_allow_html=True)
+    
     st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Adverbiales"]}</p>""",unsafe_allow_html=True)
+    
     st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Complemento"]}</p>""",unsafe_allow_html=True)
     st.markdown(
         f"""
