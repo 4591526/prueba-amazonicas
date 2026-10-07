@@ -605,38 +605,38 @@ convocatoria_3 = {
         "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
         "Fecha_evento": "June 15 to 18, 2027",
 
-        "Descripcion": """
+        "Descripcion": """<div style="color: #7f3213;">
         <strong>Phonology – with a special focus on Prosody and Intonation</strong>
-        We invite abstracts on any topic in the phonetics and phonology of the
+        <p>We invite abstracts on any topic in the phonetics and phonology of the
         Indigenous languages of Amazonia: segmental and suprasegmental phenomena,
         tone, stress and nasality, morphophonology and the interfaces with
         morphology and syntax, variation and change, historical and comparative
         phonology, typology, language contact, and experimental, computational
-        or documentary approaches.
-        Contributions from all theoretical frameworks are welcome, from in-depth
+        or documentary approaches.</p>
+        <p>Contributions from all theoretical frameworks are welcome, from in-depth
         case studies of a single language to comparative work across families
-        and regions.
-        Within this broad scope, we especially welcome contributions on prosody,
+        and regions.</p>
+        <p>Within this broad scope, we especially welcome contributions on prosody,
         and intonation in particular, understood broadly to cover not only
         tunes, melody and pitch contours but also timing, rhythm and prominence.
         While Amazonian languages are well known for their rich word-level tone
         and accent systems, how melody and prominence work beyond the word remains
-        largely unexplored.
-        Questions we would like to address include:
-        • What are the most important or unusual findings and challenges in
-          studying prosody in Amazonian languages?
-        • How does intonation interact with lexical tone and pitch accent, and
-          how does it work in tonal languages?
-        • How is prosody used to mark sentence types, information structure
-          (topic, focus), or categories such as mood and evidentiality?
-        • How do speakers deploy melodic resources in everyday conversation,
-          and what happens to them in multilingual communities?
-        • Are there areal patterns or prosodic transfer between languages?
-        Preliminary findings and work in progress are explicitly welcome. During
+        largely unexplored.</p>
+        <p>Questions we would like to address include:</p>
+        <ul>
+            <li>What are the most important or unusual findings and challenges in
+          studying prosody in Amazonian languages?</li>
+            <li>How does intonation interact with lexical tone and pitch accent, and
+          how does it work in tonal languages?</li>
+            <li>How is prosody used to mark sentence types, information structure
+          (topic, focus), or categories such as mood and evidentiality?</li>
+            <li>How do speakers deploy melodic resources in everyday conversation,
+          and what happens to them in multilingual communities?</li>
+            <li>Are there areal patterns or prosodic transfer between languages?</li></ul>
+        <p>Preliminary findings and work in progress are explicitly welcome. During
         the symposium, we intend to examine each other's data, discuss methods
         and analyses, and possibly develop the presentations into a proposal
-        for an edited volume on the prosody of Amazonian Indigenous languages.
-        """,
+        for an edited volume on the prosody of Amazonian Indigenous languages.</p></div>""",
 
         "Topics": """
         Contributions may address segmental and suprasegmental phenomena, tone,
