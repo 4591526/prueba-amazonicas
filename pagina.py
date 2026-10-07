@@ -43,11 +43,30 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-idioma = st.selectbox(
-    "",
-    ["Español", "English", "Português"],
-    label_visibility="collapsed"
-)
+#idioma = st.selectbox("",
+#    ["Español", "English", "Português"],
+#    label_visibility="collapsed"
+# )
+
+if "idioma" not in st.session_state:
+    st.session_state.idioma = "Español"
+
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    if st.button("🇪🇸 Español", use_container_width=True):
+        st.session_state.idioma = "Español"
+
+with col2:
+    if st.button("🇬🇧 English", use_container_width=True):
+        st.session_state.idioma = "English"
+
+with col3:
+    if st.button("🇧🇷 Português", use_container_width=True):
+        st.session_state.idioma = "Português"
+
+
+idioma = st.session_state.idioma
 
 menus = { "Español": {"Evento": "Evento", "Amazonicas": "Amazonicas", "Programación": "Programación", "Organizadores": "Organizadores", 
                       "Convocatoria": "Convocatoria de resúmenes", "Cursos": "Cursos", "Información": "Información"}, 
