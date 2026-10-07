@@ -524,15 +524,13 @@ convocatoria_3 = {
         "Fecha_evento": "15 al 18 de junio de 2027",
 
         "Descripcion": """
-        <p><strong>Fonología – con especial énfasis en la prosodia y la entonación</strong></p>
-        
+        <strong>Fonología – con especial énfasis en la prosodia y la entonación</strong>
         <p>Invitamos a presentar resúmenes sobre cualquier tema relacionado con la
         fonética y la fonología de las lenguas indígenas de la Amazonía: fenómenos
         segmentales y suprasegmentales, tono, acento y nasalidad, morfofonología y
         las interfaces con la morfología y la sintaxis, variación y cambio,
         fonología histórica y comparativa, tipología, contacto lingüístico, así
         como enfoques experimentales, computacionales o documentales.</p>
-        
         <p>Se aceptan contribuciones de todos los marcos teóricos, desde estudios de
         caso en profundidad de una sola lengua hasta trabajos comparativos entre
         familias y regiones.</p>
