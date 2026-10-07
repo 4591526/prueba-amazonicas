@@ -648,23 +648,82 @@ elif opciones == menus[idioma]["Convocatoria"]:
         unsafe_allow_html=True
     )
 
-    t = convocatoria_2[st.session_state.idioma]
+    st.divider()
 
-    st.title(t["Titulo"])
-    st.subheader(t["Subtitulo"])
-    st.write(t["Organizadores"])
-    
-    st.markdown(t["Descripcion"])
-    
-    st.markdown(t["Coordinacion"])
-    st.markdown(t["Relativas"])
-    st.markdown(t["Adverbiales"])
-    st.markdown(t["Complemento"])
-    
-    st.markdown(t["Envio"])
-    st.markdown(t["Limite"])
-    st.markdown(t["Idiomas"])
-    st.markdown(t["Deadline"])
-    st.markdown(t["Aceptacion"])
-    
-    st.link_button(t["Link_text"], t["Link"])
+    st.markdown(f"""<h2 style="color:#7f3213; text-align:center; font-size:32px;">{convocatoria_2[idioma]["Titulo"]}</h2>""",unsafe_allow_html=True)
+
+    st.markdown(f"""<h3 style="color:#7f3213; text-align:center;">{convocatoria_2[idioma]["Subtitulo"]}</h3>""",unsafe_allow_html=True)
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; text-align:center; font-size:18px;">
+            <strong>{convocatoria_2[idioma]["Organizadores"]}</strong><br>
+            {convocatoria_2[idioma]["Lugar"]}<br>
+            {convocatoria_2[idioma]["Fecha_evento"]}
+        </p>
+        """,
+        unsafe_allow_html=True)
+
+    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Descripcion"]}</p>""",unsafe_allow_html=True)
+    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Coordinacion"]}</p>""",unsafe_allow_html=True)
+    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Relativas"]}</p>""",unsafe_allow_html=True)
+    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Adverbiales"]}</p>""",unsafe_allow_html=True)
+    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Complemento"]}</p>""",unsafe_allow_html=True)
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            <strong>{convocatoria_2[idioma]["Envio"]}</strong>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            {convocatoria_2[idioma]["Limite"]}
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            {convocatoria_2[idioma]["Idiomas"]}
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            <strong>{convocatoria_2[idioma]["Deadline"]}</strong>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            <strong>{convocatoria_2[idioma]["Aceptacion"]}</strong>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="font-size:18px;">
+            <a href="{convocatoria_2[idioma]["Link"]}"
+               target="_blank"
+               style="color:#7f3213; font-weight:bold;">
+                {convocatoria_2[idioma]["Link_text"]}
+            </a>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
