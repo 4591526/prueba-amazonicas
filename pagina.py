@@ -280,13 +280,11 @@ convocatoria_2 = {
         que trabajan con lenguas amazónicas a presentar resúmenes que describan,
         analicen o expliquen fenómenos de coordinación, cláusulas relativas,
         adverbiales o de complemento desde una perspectiva sincrónica o diacrónica.
-
         La coordinación implica dos cláusulas independientes, mientras que las
         cláusulas relativas, adverbiales y de complemento dependen de una cláusula
         independiente. Desde el marco tipológico de la subordinación de Cristofaro
         (2005), esta dependencia debe ser, como mínimo, semántica, mientras que
         en los marcos formales debe ser sintáctica.
-
         También se invita especialmente a presentar trabajos sobre las metodologías
         utilizadas para identificar, clasificar y describir estos fenómenos.
         """,
@@ -307,14 +305,12 @@ convocatoria_2 = {
         uso de un relativizador y la nominalización. Camacho y Giménez (2017)
         señalan que 18 de las 30 lenguas indígenas analizadas en su estudio
         utilizaban nominalizaciones.
-
         Las relativas también pueden clasificarse según la posición del núcleo.
         Las relativas externas al núcleo pueden ser prenominales (Relativa N),
         como en mandarín, o posnominales (N Relativa), como en inglés. Dryer et al.
         (2013) analizaron 824 lenguas y encontraron 579 lenguas con relativas
         posnominales, 141 con relativas prenominales y 24 con relativas internas
         al núcleo.
-
         Otra clasificación tipológica (Payne 1997) distingue entre una estrategia
         de omisión (gap), en la que el sintagma nominal correferencial con el
         núcleo no se expresa dentro de la relativa, y una estrategia explícita,
@@ -340,7 +336,6 @@ convocatoria_2 = {
         Envío de resúmenes: Un documento en formato PDF, de una página como máximo
         sin contar las referencias, con márgenes de 1 pulgada, fuente de 12 puntos
         y espacio sencillo. Incluya un título.
-
         Las referencias y los ejemplos pueden proporcionarse en una página adicional.
         No incluya los nombres de los autores ni otra información identificativa
         en el resumen.
@@ -374,12 +369,10 @@ convocatoria_2 = {
         abstracts describing, analyzing, or explaining coordination, relative
         clauses, adverbial clauses, or complement clauses from a synchronic or
         diachronic perspective.
-
         Coordination involves two independent clauses, whereas relative, adverbial,
         and complement clauses depend on an independent clause. In Cristofaro's
         (2005) typological framework of subordination, this dependency must be at
         least semantic, whereas in formal frameworks it must be syntactic.
-
         Contributions discussing methodologies used to identify, classify, and
         describe these phenomena are also especially encouraged.
         """,
@@ -398,13 +391,11 @@ convocatoria_2 = {
         are commonly used to form relatives: the use of a relativizer and
         nominalization. Camacho & Gimenez (2017) report that 18 of the 30
         Indigenous languages analyzed in their study used nominalizations.
-
         Relative clauses can also be classified according to the position of the
         head. Head-external relatives may be prenominal (Relative N), as in
         Mandarin, or postnominal (N Relative), as in English. Dryer et al. (2013)
         analyzed 824 languages and found 579 postnominal, 141 prenominal, and
         24 head-internal relative clauses.
-
         Another typological classification (Payne 1997) distinguishes between a
         gap strategy, in which the noun phrase coreferential with the head is not
         expressed inside the relative clause, and an overt strategy, in which the
@@ -429,7 +420,6 @@ convocatoria_2 = {
         Abstract submission: One document in PDF format, at most 1 page excluding
         references, with 1-inch margins, 12pt font, and single spacing. Include a
         title.
-
         References and examples can be provided on an additional page. Do not
         include author names or other identifying information in the abstract.
         """,
@@ -462,13 +452,11 @@ convocatoria_2 = {
         com línguas amazônicas a apresentar resumos que descrevam, analisem ou
         expliquem fenômenos de coordenação, orações relativas, adverbiais ou
         completivas, numa perspectiva sincrônica ou diacrônica.
-
         A coordenação envolve duas orações independentes, enquanto as orações
         relativas, adverbiais e completivas dependem de uma oração independente.
         No quadro tipológico da subordinação de Cristofaro (2005), essa dependência
         deve ser, no mínimo, semântica, enquanto nos quadros formais deve ser
         sintática.
-
         Trabalhos que discutam as metodologias utilizadas para identificar,
         classificar e descrever esses fenômenos também são especialmente
         incentivados.""",
@@ -487,7 +475,6 @@ convocatoria_2 = {
         o uso de um relativizador e a nominalização. Camacho e Giménez (2017)
         relatam que 18 das 30 línguas indígenas analisadas em seu estudo utilizavam
         nominalizações.
-
         As orações relativas também podem ser classificadas de acordo com a posição
         do núcleo. As relativas externas ao núcleo podem ser pré-nominais
         (Relativa N), como no mandarim, ou pós-nominais (N Relativa), como no inglês.
@@ -516,7 +503,6 @@ convocatoria_2 = {
         Submissão de resumos: Um documento em formato PDF, com no máximo uma página,
         sem contar as referências, com margens de 1 polegada (2,54 cm), fonte de
         12 pontos e espaçamento simples. Incluir um título.
-
         As referências e os exemplos podem constar em uma página separada. Não
         incluir os nomes dos autores ou outras informações de identificação no
         resumo.
