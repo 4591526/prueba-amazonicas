@@ -759,6 +759,362 @@ convocatoria_3 = {
     }
 }
 
+convocatoria_4 = {
+
+    "Español": {
+        "Subtitulo": "AMAZONICAS XI – Simposio de Lengua y Sociedad",
+
+        "Organizadores": """
+        <strong>Organizadores:</strong>
+        Bernat Bardagil, Héloïse Calame, Carla Daniele Costa,
+        Ana Vilacy Galúcio, Alba Hermida Rodríguez
+        """,
+
+        "Lugar": "Pontificia Universidad Católica del Perú, Lima, Perú",
+
+        "Fecha_evento": "15 al 18 de junio de 2027",
+
+        "Descripcion": """
+        <div style="color: #7f3213;">
+
+        <p><strong>Lengua y Sociedad: Revitalización lingüística en contextos de alta obsolescencia</strong></p>
+
+        <p>Las sociedades indígenas con un alto grado de obsolescencia lingüística
+        son una realidad frecuente en la región de la Gran Amazonia, caracterizada
+        por una enorme diversidad de situaciones y contextos de desplazamiento
+        lingüístico, y también de iniciativas para abordar esas situaciones.
+        Este simposio Amazónicas plantea una plataforma para que activistas e
+        investigadores que trabajan específicamente en revitalización lingüística
+        en contextos de alta obsolescencia puedan compartir experiencias y debatir
+        perspectivas tanto teóricas como aplicadas.</p>
+
+        <p><strong>¿Qué son los contextos de alta obsolescencia?</strong></p>
+
+        <ul>
+            <li><strong>Reducción del número de hablantes y dominios de uso:</strong>
+            tendencia decreciente sostenida, no solo un número bajo estable.</li>
+
+            <li><strong>Interrupción de la transmisión generacional (L1):</strong>
+            predominan semi-hablantes o recordadores con un perfil demográfico envejecido.</li>
+
+            <li><strong>Cambios estructurales internos:</strong>
+            pérdidas de categorías gramaticales, convergencia con la lengua dominante,
+            pérdida de vocabulario especializado, mayor variabilidad e inconsistencias.</li>
+        </ul>
+
+        <p><strong>Los siguientes temas son de especial interés:</strong></p>
+
+        <ul>
+            <li>Las causas sociohistóricas del desplazamiento (violento o silencioso)
+            y su efecto en la vitalidad lingüística.</li>
+
+            <li>El concepto de hablante y su papel en la revitalización: tipologías
+            (neohablantes, semi-hablantes, hablantes pasivos, recordadores),
+            legitimidad/autoridad lingüística y tensiones entre grupos.</li>
+
+            <li>Metodologías de trabajo con semi-hablantes y recordadores:
+            reactivación y competencia latente, ética de investigación con
+            hablantes vulnerables, revitalización de corpus.</li>
+
+            <li>Variación lingüística y aspectos etnográficos: el papel de la
+            etnografía en revitalización, el dilema entre homogeneización y la
+            variación lingüística (registros situacionales, dialectales,
+            generacionales), y/o criterios de priorización ante una u otra variabilidad.</li>
+
+            <li>El impacto de la revitalización en el ámbito escolar y entre adultos:
+            evaluación de resultados intra e intergrupales como programas de
+            aprendices-maestros.</li>
+
+            <li>Estrategias para ampliar los contextos de uso: competencia
+            comunicativa real versus simbólica/identitaria, nuevos dominios digitales.</li>
+
+            <li>Actitudes lingüísticas, evitación lingüística y disociación:
+            desarrollar la ideología lingüística como marco teórico y determinar
+            de qué manera condicionan la revitalización.</li>
+
+            <li>Aspectos psicolingüísticos: lenguas de herencia, lengua-espíritu
+            y transmisión epigenética/cultural como punto de partida de la
+            revitalización lingüística.</li>
+        </ul>
+
+        </div>
+        """,
+
+        "Envio": """
+        <div style="color: #7f3213;">
+
+        <p><strong>Entrega de resúmenes:</strong></p>
+
+        <p>Un documento en formato PDF, máximo 1 página excluyendo fuentes,
+        márgenes de 1 pulgada, fuente de 12 puntos y espacio sencillo.
+        Incluya título. Las referencias y ejemplos pueden ser entregados
+        en una página separada.</p>
+
+        <p>No incluya nombres o apellidos de autores ni otra información
+        que identifique a los autores.</p>
+
+        <p>Se pueden enviar máximo dos resúmenes, de los cuales solamente
+        uno como autor único.</p>
+
+        <p>El resumen y la ponencia pueden ser en español, portugués o inglés.</p>
+
+        </div>
+        """,
+
+        "Limite": "Máximo dos resúmenes: uno como autor único y otro en coautoría.",
+
+        "Idiomas": "El resumen y la ponencia pueden ser en español, portugués o inglés.",
+
+        "Deadline": "Fecha límite de entrega: 6 de diciembre de 2026",
+
+        "Aceptacion": "Notificación de aceptación: 4 de enero de 2027",
+
+        "Link": "https://app.oxfordabstracts.com/stages/83705/submitter",
+
+        "Link_text": "Enlace para envío de resúmenes"
+    },
+
+
+    "English": {
+        "Subtitulo": "AMAZONICAS XI – Language and Society Symposium",
+
+        "Organizadores": """
+        <strong>Organizers:</strong>
+        Bernat Bardagil, Héloïse Calame, Carla Daniele Costa,
+        Ana Vilacy Galúcio, Alba Hermida Rodríguez
+        """,
+
+        "Lugar": "Pontificia Universidad Católica del Perú, Lima, Perú",
+
+        "Fecha_evento": "June 15 to 18, 2027",
+
+        "Descripcion": """
+        <div style="color: #7f3213;">
+
+        <p><strong>Language and Society: Language revitalization in high obsolescence contexts</strong></p>
+
+        <p>Indigenous societies experiencing a high degree of language obsolescence
+        are a frequent reality across the Greater Amazon region, which is
+        characterised by an enormous diversity of situations and contexts of
+        language shift, as well as by a wide range of initiatives aimed at
+        addressing them. This Amazónicas symposium provides a platform for
+        activists and researchers working specifically on language revitalisation
+        in contexts of advanced language obsolescence to share experiences and
+        discuss both theoretical and applied perspectives.</p>
+
+        <p><strong>What are contexts of advanced language obsolescence?</strong></p>
+
+        <ul>
+            <li><strong>A reduction in the number of speakers and domains of use:</strong>
+            a sustained downward trend, rather than simply a small but stable number
+            of speakers.</li>
+
+            <li><strong>An interruption of intergenerational transmission (L1):</strong>
+            semi-speakers and rememberers predominate, with an ageing demographic profile.</li>
+
+            <li><strong>Internal structural changes:</strong>
+            loss of grammatical categories, convergence with the dominant language,
+            loss of specialised vocabulary, and increasing variability and inconsistency.</li>
+        </ul>
+
+        <p><strong>The following topics are of particular interest:</strong></p>
+
+        <ul>
+            <li>The sociohistorical causes of language shift (whether violent or
+            more gradual/silent) and their effects on linguistic vitality.</li>
+
+            <li>The concept of the speaker and its role in revitalisation:
+            speaker typologies (new speakers, semi-speakers, passive speakers,
+            rememberers), linguistic legitimacy and authority, and tensions
+            between different speaker groups.</li>
+
+            <li>Methodologies for working with semi-speakers and rememberers:
+            reactivation and latent competence, research ethics when working
+            with vulnerable speakers, and corpus revitalisation.</li>
+
+            <li>Linguistic variation and ethnographic dimensions: the role of
+            ethnography in revitalisation; the tension between homogenisation
+            and linguistic variation (situational, dialectal, and generational
+            registers); and/or criteria for prioritising one type of variation
+            over another.</li>
+
+            <li>The impact of revitalisation in educational settings and among
+            adults: the evaluation of intra- and intergroup outcomes, including
+            programmes based on learner–teacher models.</li>
+
+            <li>Strategies for expanding contexts of use: genuine communicative
+            competence versus symbolic/identity-based use, and the development
+            of new digital domains.</li>
+
+            <li>Language attitudes, language avoidance, and dissociation:
+            developing language ideology as a theoretical framework and examining
+            how these factors shape and constrain revitalisation efforts.</li>
+
+            <li>Psycholinguistic dimensions: heritage languages, language as spirit
+            or ancestral voice, and epigenetic/cultural transmission as potential
+            starting points for language revitalisation.</li>
+        </ul>
+
+        </div>
+        """,
+
+        "Envio": """
+        <div style="color: #7f3213;">
+
+        <p><strong>Abstract submission:</strong></p>
+
+        <p>One document in PDF format, at most 1 page excluding references,
+        1-inch margins, 12pt font, and single-spaced. Include a title.
+        References and examples can be provided on an additional page.</p>
+
+        <p>Do not include author names or other identifying information
+        in the abstract.</p>
+
+        <p>One single-authored and one co-authored abstract are allowed.</p>
+
+        <p>The abstract and the talk can be in Spanish, Portuguese, or English.</p>
+
+        </div>
+        """,
+
+        "Limite": "One single-authored and one co-authored abstract are allowed.",
+
+        "Idiomas": "The abstract and the talk can be in Spanish, Portuguese, or English.",
+
+        "Deadline": "Deadline for submission: December 6, 2026",
+
+        "Aceptacion": "Notification of acceptance: January 4, 2027",
+
+        "Link": "https://app.oxfordabstracts.com/stages/83705/submitter",
+
+        "Link_text": "Abstract submission link"
+    },
+
+
+    "Português": {
+        "Subtitulo": "AMAZONICAS XI – Simpósio de Língua e Sociedade",
+
+        "Organizadores": """
+        <strong>Organizadores:</strong>
+        Bernat Bardagil, Héloïse Calame, Carla Daniele Costa,
+        Ana Vilacy Galúcio, Alba Hermida Rodríguez
+        """,
+
+        "Lugar": "Pontificia Universidad Católica del Perú, Lima, Perú",
+
+        "Fecha_evento": "15 a 18 de junho de 2027",
+
+        "Descripcion": """
+        <div style="color: #7f3213;">
+
+        <p><strong>Língua e Sociedade: Revitalização linguística em contextos de alta obsolescência</strong></p>
+
+        <p>As sociedades indígenas que vivenciam um alto grau de deslocamento
+        linguístico constituem uma realidade amplamente disseminada na Grande
+        Amazônia. Essas sociedades apresentam uma enorme diversidade de situações
+        e contextos de obsolescência linguística, bem como de iniciativas
+        destinadas a enfrentar e reverter esses processos. Este simpósio do
+        colóquio Amazônicas pretende constituir um espaço de diálogo entre
+        ativistas e pesquisadores que atuam na área de revitalização linguística,
+        com especial atenção aos contextos de alta obsolescência. O objetivo é
+        promover o compartilhamento de experiências e a discussão de perspectivas
+        teóricas e aplicadas relacionadas à revitalização de línguas indígenas.</p>
+
+        <p><strong>O que são contextos de alta obsolescência?</strong></p>
+
+        <ul>
+            <li><strong>Redução do número de falantes e dos domínios de uso:</strong>
+            há tendência ao decréscimo contínuo, não apenas a um número baixo e estável.</li>
+
+            <li><strong>Interrupção da transmissão intergeracional (L1):</strong>
+            predominância de semi-falantes ou pessoas que retêm memórias da língua
+            (<em>rememberers</em>), com concentração desses perfis entre as gerações mais velhas.</li>
+
+            <li><strong>Mudanças estruturais na língua:</strong>
+            perda de categorias gramaticais, convergência com a língua dominante,
+            perda de vocabulário especializado, maior variabilidade e inconsistência.</li>
+        </ul>
+
+        <p><strong>Os seguintes temas são de especial interesse:</strong></p>
+
+        <ul>
+            <li>As causas sócio-históricas do deslocamento (violento ou silencioso)
+            e seu efeito na vitalidade linguística.</li>
+
+            <li>O conceito de falante e seu papel na revitalização: tipologias
+            (neofalantes, semi-falantes, falantes passivos, pessoas que retêm
+            memórias da língua), legitimidade/autoridade linguística e tensões
+            entre grupos.</li>
+
+            <li>Metodologias de trabalho junto a semi-falantes e pessoas que
+            retêm memórias da língua: reativação linguística e desenvolvimento
+            da competência latente, ética de pesquisa com falantes em situação
+            de vulnerabilidade, e revitalização de <em>corpora</em> linguísticos.</li>
+
+            <li>Variação linguística e aspectos etnográficos: o papel da
+            etnografia nos processos de revitalização, o dilema entre
+            homogeneização e preservação da variação linguística (situacional,
+            dialetal e geracional), e os critérios de priorização diante de
+            diferentes tipos de variabilidade.</li>
+
+            <li>O impacto da revitalização no âmbito escolar e entre adultos:
+            avaliação de resultados intra e intergrupais, como em programas
+            de mestre-aprendiz.</li>
+
+            <li>Estratégias para ampliar os contextos de uso: competência
+            comunicativa efetiva <em>versus</em> usos simbólicos e identitários,
+            criação de novos domínios de uso dentro e fora das comunidades,
+            incluindo domínios digitais.</li>
+
+            <li>Atitudes linguísticas, evitação linguística e dissociação:
+            o desenvolvimento das ideologias linguísticas como referencial
+            teórico e a maneira como elas condicionam a revitalização.</li>
+
+            <li>Aspectos psicolinguísticos: línguas de herança, língua-espírito
+            e transmissão epigenética/cultural como ponto de partida para a
+            revitalização linguística.</li>
+        </ul>
+
+        </div>
+        """,
+
+        "Envio": """
+        <div style="color: #7f3213;">
+
+        <p><strong>Submissão de resumos:</strong></p>
+
+        <p>O resumo deve ser submetido em formato PDF, com no máximo uma página,
+        sem incluir as referências. O documento deve apresentar margens de
+        1 polegada (2,54 cm), fonte tamanho 12 e espaçamento simples.</p>
+
+        <p>O título deve ser incluído no documento. As referências e exemplos
+        podem constar em uma página separada.</p>
+
+        <p>Não incluir os nomes dos autores ou outras informações de identificação
+        no resumo.</p>
+
+        <p>Cada participante poderá submeter um resumo de autoria única e um
+        resumo em coautoria.</p>
+
+        <p>O resumo e a apresentação podem ser em espanhol, português ou inglês.</p>
+
+        </div>
+        """,
+
+        "Limite": "Um resumo de autoria única e um resumo em coautoria.",
+
+        "Idiomas": "O resumo e a apresentação podem ser em espanhol, português ou inglês.",
+
+        "Deadline": "Prazo para submissão: 6 de dezembro de 2026",
+
+        "Aceptacion": "Notificação de aceitação: 4 de janeiro de 2027",
+
+        "Link": "https://app.oxfordabstracts.com/stages/83705/submitter",
+
+        "Link_text": "Link para submissão de resumos"
+    }
+}
+
 opciones = option_menu(
     menu_title=None,
     options=opciones_menu,
@@ -948,6 +1304,80 @@ elif opciones == menus[idioma]["Convocatoria"]:
                target="_blank"
                style="color:#7f3213; font-weight:bold;">
                 {convocatoria_2[idioma]["Link_text"]}
+            </a>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.divider()
+
+    st.markdown(f"""<h3 style="color:#7f3213; text-align:center;">{convocatoria_4[idioma]["Subtitulo"]}</h3>""",unsafe_allow_html=True)
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; text-align:center; font-size:18px;">
+            <strong>{convocatoria_4[idioma]["Organizadores"]}</strong><br>
+            {convocatoria_4[idioma]["Lugar"]}<br>
+            {convocatoria_4[idioma]["Fecha_evento"]}
+        </p>
+        """,
+        unsafe_allow_html=True)
+
+    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_4[idioma]["Descripcion"]}</p>""",unsafe_allow_html=True)
+    
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            <strong>{convocatoria_4[idioma]["Envio"]}</strong>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            {convocatoria_4[idioma]["Limite"]}
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            {convocatoria_4[idioma]["Idiomas"]}
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            <strong>{convocatoria_4[idioma]["Deadline"]}</strong>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="color:#7f3213; font-size:18px;">
+            <strong>{convocatoria_4[idioma]["Aceptacion"]}</strong>
+        </p>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown(
+        f"""
+        <p style="font-size:18px;">
+            <a href="{convocatoria_4[idioma]["Link"]}"
+               target="_blank"
+               style="color:#7f3213; font-weight:bold;">
+                {convocatoria_4[idioma]["Link_text"]}
             </a>
         </p>
         """,
