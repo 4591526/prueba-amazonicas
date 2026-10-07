@@ -471,8 +471,7 @@ convocatoria_2 = {
 
         Trabalhos que discutam as metodologias utilizadas para identificar,
         classificar e descrever esses fenômenos também são especialmente
-        incentivados.
-        """,
+        incentivados.""",
 
         "Coordinacion": """
         Segundo Haspelmath (2007), as orações coordenadas podem apresentar um
@@ -480,8 +479,7 @@ convocatoria_2 = {
         A coordenação sindética pode ser dividida em oito tipos, dependendo do
         número de elementos coordenadores e de sua posição em relação a cada oração.
         Semanticamente, os elementos coordenadores podem expressar conjunção (e),
-        disjunção (ou) ou coordenação adversativa (mas).
-        """,
+        disjunção (ou) ou coordenação adversativa (mas).""",
 
         "Relativas": """
         As orações relativas frequentemente funcionam como modificadores de nomes.
@@ -499,14 +497,12 @@ convocatoria_2 = {
         Outra classificação tipológica (Payne 1997) distingue entre uma estratégia
         de omissão (gap), na qual o sintagma nominal correferente ao núcleo não é
         expresso dentro da oração relativa, e uma estratégia explícita, na qual o
-        sintagma nominal é realizado fonologicamente.
-        """,
+        sintagma nominal é realizado fonologicamente.""",
 
         "Adverbiales": """
         As orações adverbiais funcionam como modificadores ou adjuntos de orações
         independentes e podem expressar noções como tempo, condição, razão ou
-        propósito/objetivo.
-        """,
+        propósito/objetivo.""",
 
         "Complemento": """
         As orações completivas funcionam como complementos do verbo na oração
@@ -514,8 +510,7 @@ convocatoria_2 = {
         possibilidade, capacidade), fase (começar, parar, continuar), manipulação
         (ordenar, persuadir), desejo (querer, desejar), percepção (ouvir, ver),
         conhecimento (saber, perceber), atitude proposicional (pensar, acreditar)
-        e enunciação (dizer, falar).
-        """,
+        e enunciação (dizer, falar).""",
 
         "Envio": """
         Submissão de resumos: Um documento em formato PDF, com no máximo uma página,
