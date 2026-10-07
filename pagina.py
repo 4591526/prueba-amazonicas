@@ -54,15 +54,15 @@ if "idioma" not in st.session_state:
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    if st.button("🇪🇸 Español", use_container_width=True):
+    if st.button("Flag: Spain Español", use_container_width=True):
         st.session_state.idioma = "Español"
 
 with col2:
-    if st.button("🇬🇧 English", use_container_width=True):
+    if st.button("English", use_container_width=True):
         st.session_state.idioma = "English"
 
 with col3:
-    if st.button("🇧🇷 Português", use_container_width=True):
+    if st.button("Português", use_container_width=True):
         st.session_state.idioma = "Português"
 
 
