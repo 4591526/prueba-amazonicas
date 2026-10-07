@@ -524,39 +524,50 @@ convocatoria_3 = {
         "Fecha_evento": "15 al 18 de junio de 2027",
 
         "Descripcion": """
-        <strong>Fonología – con especial énfasis en la prosodia y la entonación</strong>
+        <p><strong>Fonología – con especial énfasis en la prosodia y la entonación</strong></p>
+        
         <p>Invitamos a presentar resúmenes sobre cualquier tema relacionado con la
         fonética y la fonología de las lenguas indígenas de la Amazonía: fenómenos
         segmentales y suprasegmentales, tono, acento y nasalidad, morfofonología y
         las interfaces con la morfología y la sintaxis, variación y cambio,
         fonología histórica y comparativa, tipología, contacto lingüístico, así
         como enfoques experimentales, computacionales o documentales.</p>
+        
         <p>Se aceptan contribuciones de todos los marcos teóricos, desde estudios de
         caso en profundidad de una sola lengua hasta trabajos comparativos entre
         familias y regiones.</p>
+        
         <p>Dentro de este amplio alcance, damos especial bienvenida a las
         contribuciones sobre prosodia, y sobre la entonación en particular,
         entendida en sentido amplio para abarcar no solo las melodías, los
         contornos tonales y de altura, sino también la temporalidad, el ritmo y
         la prominencia.</p>
+        
         <p>Si bien las lenguas amazónicas son bien conocidas por sus ricos sistemas
         de tono y acento a nivel de palabra, el funcionamiento de la melodía y la
-        prominencia más allá de la palabra sigue siendo en gran medida inexplorado.</p>
-        <p>Entre las preguntas que nos gustaría abordar se incluyen:</p>
-        <ul><li>¿Cuáles son los hallazgos y los retos más importantes o inusuales en el
-          estudio de la prosodia de las lenguas amazónicas?</li>
-            <li>¿Cómo interactúa la entonación con el tono léxico y el acento de altura,
-          y cómo funciona en las lenguas tonales?</li>
-            <li>¿Cómo se utiliza la prosodia para marcar tipos de oraciones, la estructura
-          de la información (tema, foco) o categorías como el modo y la evidencialidad?</li>
-            <li>¿Cómo utilizan los hablantes los recursos melódicos en la conversación
-          cotidiana y qué sucede con ellos en comunidades multilingües?</li>
-            <li>¿Existen patrones regionales o transferencia prosódica entre lenguas?</li></ul>
+        prominencia más allá de la palabra sigue siendo en gran medida
+        inexplorado.</p>
+        
+        <p><strong>Entre las preguntas que nos gustaría abordar se incluyen:</strong></p>
+        
+        <ul>
+            <li>¿Cuáles son los hallazgos y los retos más importantes o inusuales en el estudio de la prosodia de las lenguas amazónicas?</li>
+        
+            <li>¿Cómo interactúa la entonación con el tono léxico y el acento de altura, y cómo funciona en las lenguas tonales?</li>
+        
+            <li>¿Cómo se utiliza la prosodia para marcar tipos de oraciones, la estructura de la información (tema, foco) o categorías como el modo y la evidencialidad?</li>
+        
+            <li>¿Cómo utilizan los hablantes los recursos melódicos en la conversación cotidiana y qué sucede con ellos en comunidades multilingües?</li>
+        
+            <li>¿Existen patrones regionales o transferencia prosódica entre lenguas?</li>
+        </ul>
+        
         <p>Se acogen explícitamente los hallazgos preliminares y los trabajos en curso.
         Durante el simposio se pretende examinar conjuntamente los datos, discutir
         métodos y análisis y, posiblemente, convertir las presentaciones en una
         propuesta para un volumen editado sobre la prosodia de las lenguas
-        indígenas amazónicas.</p>""",
+        indígenas amazónicas.</p>
+        """,
 
         "Temas": """
         Los trabajos pueden abordar fenómenos segmentales y suprasegmentales,
