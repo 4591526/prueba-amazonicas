@@ -446,7 +446,7 @@ convocatoria_2 = {
         "Fecha_evento": "June 15 to 18, 2027",
 
         "Descripcion": """
-        As orações complexas podem ser definidas de diferentes formas nos diversos
+        As **orações complexas** podem ser definidas de diferentes formas nos diversos
         quadros linguísticos, mas todas compartilham uma estratégia que envolve o
         uso de mais de um verbo em uma oração. Convidamos linguistas que trabalham
         com línguas amazônicas a apresentar resumos que descrevam, analisem ou
@@ -462,7 +462,7 @@ convocatoria_2 = {
         incentivados.""",
 
         "Coordinacion": """
-        Segundo Haspelmath (2007), as orações coordenadas podem apresentar um
+        Segundo Haspelmath (2007), as **orações coordenadas** podem apresentar um
         elemento coordenador (coordenação sindética) ou não (coordenação assindética).
         A coordenação sindética pode ser dividida em oito tipos, dependendo do
         número de elementos coordenadores e de sua posição em relação a cada oração.
@@ -470,7 +470,7 @@ convocatoria_2 = {
         disjunção (ou) ou coordenação adversativa (mas).""",
 
         "Relativas": """
-        As orações relativas frequentemente funcionam como modificadores de nomes.
+        As **orações relativas** frequentemente funcionam como modificadores de nomes.
         Duas estratégias são utilizadas com frequência para formar relativas:
         o uso de um relativizador e a nominalização. Camacho e Giménez (2017)
         relatam que 18 das 30 línguas indígenas analisadas em seu estudo utilizavam
@@ -480,19 +480,18 @@ convocatoria_2 = {
         (Relativa N), como no mandarim, ou pós-nominais (N Relativa), como no inglês.
         Dryer et al. (2013) analisaram 824 línguas e encontraram 579 relativas
         pós-nominais, 141 pré-nominais e 24 internas ao núcleo.
-
         Outra classificação tipológica (Payne 1997) distingue entre uma estratégia
         de omissão (gap), na qual o sintagma nominal correferente ao núcleo não é
         expresso dentro da oração relativa, e uma estratégia explícita, na qual o
         sintagma nominal é realizado fonologicamente.""",
 
         "Adverbiales": """
-        As orações adverbiais funcionam como modificadores ou adjuntos de orações
+        As **orações adverbiais** funcionam como modificadores ou adjuntos de orações
         independentes e podem expressar noções como tempo, condição, razão ou
         propósito/objetivo.""",
 
         "Complemento": """
-        As orações completivas funcionam como complementos do verbo na oração
+        As **orações completivas** funcionam como complementos do verbo na oração
         independente. Esses verbos podem expressar modalidade (obrigação,
         possibilidade, capacidade), fase (começar, parar, continuar), manipulação
         (ordenar, persuadir), desejo (querer, desejar), percepção (ouvir, ver),
