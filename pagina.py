@@ -48,13 +48,28 @@ st.markdown(
 #    label_visibility="collapsed"
 # )
 
+st.markdown("""
+<style>
+div.stButton > button {
+    color: black !important;
+    background-color: white !important;
+    border: 1px solid #cccccc;
+}
+
+div.stButton > button:hover {
+    color: black !important;
+    border-color: black;
+}
+</style>
+""", unsafe_allow_html=True)
+
 if "idioma" not in st.session_state:
-    st.session_state.idioma = "Español"
+    st.session_state.idioma = "English"
 
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    if st.button("Flag: Spain Español", use_container_width=True):
+    if st.button("Español", use_container_width=True):
         st.session_state.idioma = "Español"
 
 with col2:
