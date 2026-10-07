@@ -638,7 +638,7 @@ convocatoria_3 = {
         and analyses, and possibly develop the presentations into a proposal
         for an edited volume on the prosody of Amazonian Indigenous languages.</p></div>""",
 
-        "Topics": """
+        "Temas": """
         Contributions may address segmental and suprasegmental phenomena, tone,
         stress, nasality, morphophonology, interfaces with morphology and syntax,
         variation and change, historical and comparative phonology, typology,
@@ -646,7 +646,7 @@ convocatoria_3 = {
         approaches.
         """,
 
-        "Prosody": """
+        "Prosodia": """
         Particular attention is given to prosody and, especially, intonation,
         including melody, pitch contours, timing, rhythm and prominence.
         Contributions may also address the interaction between intonation,
