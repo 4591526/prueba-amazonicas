@@ -548,9 +548,8 @@ convocatoria_3 = {
         <p>Si bien las lenguas amazónicas son bien conocidas por sus ricos sistemas
         de tono y acento a nivel de palabra, el funcionamiento de la melodía y la
         prominencia más allá de la palabra sigue siendo en gran medida inexplorado.</p>
-        Entre las preguntas que nos gustaría abordar se incluyen:
-        <ul>
-            <li>¿Cuáles son los hallazgos y los retos más importantes o inusuales en el
+        <p>Entre las preguntas que nos gustaría abordar se incluyen:</p>
+        <ul><li>¿Cuáles son los hallazgos y los retos más importantes o inusuales en el
           estudio de la prosodia de las lenguas amazónicas?</li>
             <li>¿Cómo interactúa la entonación con el tono léxico y el acento de altura,
           y cómo funciona en las lenguas tonales?</li>
