@@ -274,7 +274,7 @@ convocatoria_2 = {
         "Fecha_evento": "June 15 to 18, 2027",
 
         "Descripcion": """
-        Las oraciones complejas pueden definirse de distintas maneras según los
+        Las <strong>oraciones complejas</strong> pueden definirse de distintas maneras según los
         diferentes marcos lingüísticos, pero todas comparten una estrategia que
         implica el uso de más de un verbo en una oración. Se invita a lingüistas
         que trabajan con lenguas amazónicas a presentar resúmenes que describan,
@@ -290,7 +290,7 @@ convocatoria_2 = {
         """,
 
         "Coordinacion": """
-        Según Haspelmath (2007), las cláusulas coordinadas pueden presentar un
+        Según Haspelmath (2007), las <strong>cláusulas coordinadas</strong> pueden presentar un
         elemento coordinador (coordinación sindética) o no presentarlo
         (coordinación asindética). La coordinación sindética puede clasificarse
         en ocho tipos según el número de elementos coordinadores y su posición
@@ -300,7 +300,7 @@ convocatoria_2 = {
         """,
 
         "Relativas": """
-        Las cláusulas relativas suelen funcionar como modificadores de un nombre.
+        Las <strong>cláusulas relativas</strong> suelen funcionar como modificadores de un nombre.
         Entre las estrategias utilizadas para formar relativas se encuentran el
         uso de un relativizador y la nominalización. Camacho y Giménez (2017)
         señalan que 18 de las 30 lenguas indígenas analizadas en su estudio
@@ -318,13 +318,13 @@ convocatoria_2 = {
         """,
 
         "Adverbiales": """
-        Las cláusulas adverbiales funcionan como modificadores o adjuntos de
+        Las <strong>cláusulas adverbiales</strong> funcionan como modificadores o adjuntos de
         cláusulas independientes y pueden expresar nociones como tiempo,
         condición, razón, propósito u objetivo.
         """,
 
         "Complemento": """
-        Las cláusulas de complemento funcionan como complementos del verbo de la
+        Las <strong>cláusulas de complemento</strong> funcionan como complementos del verbo de la
         cláusula independiente. Los verbos que seleccionan estas cláusulas pueden
         expresar modalidad (obligación, posibilidad, capacidad), fase (comenzar,
         detener, continuar), manipulación (ordenar, persuadir), deseo (querer,
@@ -363,7 +363,7 @@ convocatoria_2 = {
         "Fecha_evento": "June 15 to 18, 2027",
 
         "Descripcion": """
-        Complex sentences can be defined differently across linguistic frameworks,
+        <strong>Complex sentences</strong> can be defined differently across linguistic frameworks,
         but they all share a strategy involving the use of more than one verb in
         a sentence. Linguists working on Amazonian languages are invited to submit
         abstracts describing, analyzing, or explaining coordination, relative
@@ -378,7 +378,7 @@ convocatoria_2 = {
         """,
 
         "Coordinacion": """
-        According to Haspelmath (2007), coordinate clauses may contain a coordinating
+        According to Haspelmath (2007), <strong>coordinate clauses</strong> may contain a coordinating
         element (syndetic coordination) or not (asyndetic coordination). Syndetic
         coordination can be divided into eight types depending on the number of
         coordinating elements and their position with respect to each clause.
@@ -387,7 +387,7 @@ convocatoria_2 = {
         """,
 
         "Relativas": """
-        Relative clauses frequently function as modifiers of nouns. Two strategies
+        <strong>Relative clauses</strong> frequently function as modifiers of nouns. Two strategies
         are commonly used to form relatives: the use of a relativizer and
         nominalization. Camacho & Gimenez (2017) report that 18 of the 30
         Indigenous languages analyzed in their study used nominalizations.
@@ -403,12 +403,12 @@ convocatoria_2 = {
         """,
 
         "Adverbiales": """
-        Adverbial clauses function as modifiers or adjuncts of independent clauses
+        <strong>Adverbial clauses</strong> function as modifiers or adjuncts of independent clauses
         and may express notions such as time, condition, reason, or purpose/goal.
         """,
 
         "Complemento": """
-        Complement clauses function as complements of the verb in the independent
+        <strong>Complement clauses</strong> function as complements of the verb in the independent
         clause. These verbs may express Modality (obligation, possibility,
         capacity), Phase (start, stop, continue), Manipulation (order, persuade),
         Desideratives (want, desire), Perception (hear, see), Knowledge (know,
