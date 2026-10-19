@@ -1165,21 +1165,25 @@ if opciones == menus[idioma]["Evento"]:
         st.markdown( f""" <p style=" color: #7f3213; font-size: 20px; margin-left: 20px; "> • {tema} </p> """, unsafe_allow_html=True )
         
 elif opciones == menus[idioma]["Amazonicas"]:
-    st.markdown(
+     st.markdown(
         f"""
-        <h2 style="font-size: 35px; text-align: center; color: #7f3213;">
-            {menus[idioma]["Amazonicas"]}
-        </h2>
+        <div style="
+            color: #7f3213;
+            font-size: 20px;
+            text-align: justify;
+            line-height: 1.8;
+        ">
+            {amazonica[idioma]["Descripcion"]}
+            <a href="https://amazonicas.org/"
+               target="_blank"
+               style="color: #7f3213;">
+                https://amazonicas.org/
+            </a>
+        </div>
         """,
         unsafe_allow_html=True
     )
 
-    st.write(amazonica[idioma]["Descripcion"])
-
-    st.markdown(
-        '[https://amazonicas.org/](https://amazonicas.org/)',
-        unsafe_allow_html=False
-    )
     
 elif opciones == menus[idioma]["Programación"]: 
   st.header(menus[idioma]["Programación"]) 
