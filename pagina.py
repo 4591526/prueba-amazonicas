@@ -1183,7 +1183,27 @@ elif opciones == menus[idioma]["Amazonicas"]:
         """,
         unsafe_allow_html=True
     )
-    # Centrar el botón
+    st.markdown(
+    """
+    <style>
+    div[data-testid="stLinkButton"] a {
+        background-color: #7f3213 !important;
+        color: #ffffff !important;
+        border: 1px solid #7f3213 !important;
+        border-radius: 8px !important;
+        font-size: 18px !important;
+        font-weight: bold !important;
+    }
+
+    div[data-testid="stLinkButton"] a:hover {
+        background-color: #54210d !important;
+        color: #ffffff !important;
+        border-color: #54210d !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+    )
     col1, col2, col3 = st.columns([1, 1, 1])
     
     with col2:
