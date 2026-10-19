@@ -18,8 +18,7 @@ with col2:
     st.image("logo_amazonicas.png", width=1500)
     #st.image("banner_amazonicas.png", width=1800)
 
-
-# Ruta de la imagen de fondo
+# 
 ruta_imagen = Path("amazonic_guy.png")
 
 # Convertir la imagen a Base64
@@ -28,11 +27,18 @@ with open(ruta_imagen, "rb") as archivo:
         archivo.read()
     ).decode()
 
-# Aplicar la imagen de fondo a toda la página
+# Aplicar imagen de fondo con transparencia
 st.markdown(
     f"""
     <style>
     .stApp {{
+        background: none;
+    }}
+
+    .stApp::before {{
+        content: "";
+        position: fixed;
+        inset: 0;
         background-image: url(
             "data:image/png;base64,{imagen_base64}"
         );
@@ -40,17 +46,19 @@ st.markdown(
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        opacity: 0.75;
+        z-index: 0;
+        pointer-events: none;
     }}
 
-    /* Eliminar sombras y fondos del contenedor principal */
-    .stApp,
-    [data-testid="stAppViewContainer"],
-    [data-testid="stHeader"] {{
-        box-shadow: none !important;
+    [data-testid="stAppViewContainer"] > .main {{
+        position: relative;
+        z-index: 1;
     }}
 
     [data-testid="stHeader"] {{
-        background-color: transparent !important;
+        background-color: transparent;
+        box-shadow: none;
     }}
 
     /* Título */
@@ -75,31 +83,6 @@ st.markdown(
 
         
 #st.markdown(f'<h1 style="font-size: 60px; text-align: center; color: green">Amazonicas XI</h1>', unsafe_allow_html=True)
-
-st.markdown(
-    """
-    <style>
-    /* Selectbox */
-    div[data-baseweb="select"] > div {
-        color: black !important;
-        background-color: white !important;
-        border: 1px solid #555 !important;
-    }
-
-    /* Opciones desplegables */
-    div[role="option"] {
-        color: black !important;
-        background-color: white !important;
-    }
-
-    /* Texto dentro del select */
-    div[data-baseweb="select"] span {
-        color: black !important;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 st.markdown("""
 <style>
