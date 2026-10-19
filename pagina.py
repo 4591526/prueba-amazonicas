@@ -193,61 +193,62 @@ evento = {
 amazonica = {
     "Español": {
         "Descripcion": """<div style="color: #7f3213; font-size: 20px;">
-            El Congreso Internacional sobre Lenguas Amazónicas, AMAZONICAS, 
-            se concibió en 2007 como un evento bienal, que se celebra de manera
-            itinerante en diferentes países amazónicos, con el objetivo principal 
-            de servir de plataforma para el intercambio de ideas y la colaboración 
-            en la investigación sobre las lenguas amazónicas. Esta serie de congresos
-            ha contribuido en gran medida a poner de relieve la importancia de las
-            lenguas amazónicas para comprender mejor el lenguaje humano en toda su
-            diversidad, y ha generado importantes resultados académicos a la vez de
-            fortalecer los lazos dentro de la comunidad de lingüistas dedicados a
-            esta región y a otras. AMAZONICAS XI se celebrará en la Pontificia
-            Universidad Católica del Perú, del 15 al 18 de junio de 2027. El congreso
-            constará de una sesión general y tres simposios temáticos centrados en
-            estudios de fonología, morfosintaxis, y lengua y sociedad. Se invitan
-            resúmenes para presentaciones orales o pósters. Más información sobre
-            la historia y organización de AMAZONICAS puede verse en """
+        El Congreso Internacional sobre Lenguas Amazónicas, AMAZONICAS, 
+        se concibió en 2007 como un evento bienal, que se celebra de manera
+        itinerante en diferentes países amazónicos, con el objetivo principal 
+        de servir de plataforma para el intercambio de ideas y la colaboración 
+        en la investigación sobre las lenguas amazónicas. Esta serie de congresos
+        ha contribuido en gran medida a poner de relieve la importancia de las
+        lenguas amazónicas para comprender mejor el lenguaje humano en toda su
+        diversidad, y ha generado importantes resultados académicos a la vez de
+        fortalecer los lazos dentro de la comunidad de lingüistas dedicados a
+        esta región y a otras. AMAZONICAS XI se celebrará en la Pontificia
+        Universidad Católica del Perú, del 15 al 18 de junio de 2027. El congreso
+        constará de una sesión general y tres simposios temáticos centrados en
+        estudios de fonología, morfosintaxis, y lengua y sociedad. Se invitan
+        resúmenes para presentaciones orales o pósters. Más información sobre
+        la historia y organización de AMAZONICAS puede verse en 
+        """
     },
 
     "English": {
         "Descripcion": """<div style="color: #7f3213; font-size: 20px;">
-            The International Congress on Amazonian Languages, AMAZONICAS, 
-            was conceived in 2007 as a biennial event, held on a rotating basis 
-            in different Amazonian countries, with the primary goal of serving 
-            as a platform for the exchange of ideas and collaboration in research
-            on Amazonian languages. This series of conferences has greatly
-            contributed to highlighting the importance of Amazonian languages
-            for a better understanding of human language in all its diversity,
-            and has yielded significant academic results while strengthening
-            ties within the community of linguists dedicated to this region and
-            others. AMAZONICAS XI will be held at the Pontifical Catholic
-            University of Peru from June 15 to 18, 2027. The conference will
-            consist of a general session and three thematic symposia focused 
-            on studies in phonology, morphosyntax, and language and society. 
-            Abstracts are invited for oral presentations or posters. More 
-            information on the history and organization of AMAZONICAS can be 
-            found at """
+        The International Congress on Amazonian Languages, AMAZONICAS, 
+        was conceived in 2007 as a biennial event, held on a rotating basis 
+        in different Amazonian countries, with the primary goal of serving 
+        as a platform for the exchange of ideas and collaboration in research
+        on Amazonian languages. This series of conferences has greatly
+        contributed to highlighting the importance of Amazonian languages
+        for a better understanding of human language in all its diversity,
+        and has yielded significant academic results while strengthening
+        ties within the community of linguists dedicated to this region and
+        others. AMAZONICAS XI will be held at the Pontifical Catholic
+        University of Peru from June 15 to 18, 2027. The conference will
+        consist of a general session and three thematic symposia focused 
+        on studies in phonology, morphosyntax, and language and society. 
+        Abstracts are invited for oral presentations or posters. More 
+        information on the history and organization of AMAZONICAS can be found at 
+        """
     },
             
     "Português": {
         "Descripcion": """<div style="color: #7f3213; font-size: 20px;">
-            O Congresso Internacional sobre Línguas Amazónicas, AMAZONICAS, 
-            foi concebido em 2007 como um evento bienal, realizado de forma 
-            itinerante em diferentes países amazónicos, com o objetivo principal 
-            de servir de plataforma para o intercâmbio de ideias e a colaboração 
-            na investigação sobre as línguas amazónicas. Esta série de congressos
-            tem contribuído significativamente para destacar a importância das
-            línguas amazónicas para uma melhor compreensão da linguagem humana
-            em toda a sua diversidade, tendo gerado resultados académicos
-            importantes e, ao mesmo tempo, reforçado os laços no seio da comunidade
-            de linguistas dedicados a esta região e a outras. O AMAZONICAS XI terá
-            lugar na Pontifícia Universidade Católica do Peru, de 15 a 18 de junho
-            de 2027. O congresso consistirá numa sessão geral e em três simpósios
-            temáticos centrados em estudos de fonologia, morfossintaxe e língua e
-            sociedade. Estão abertas as inscrições para resumos de apresentações 
-            orais ou de cartazes. Para mais informações sobre a história e a 
-            organização do AMAZONICAS, consulte """
+        O Congresso Internacional sobre Línguas Amazónicas, AMAZONICAS, 
+        foi concebido em 2007 como um evento bienal, realizado de forma 
+        itinerante em diferentes países amazónicos, com o objetivo principal 
+        de servir de plataforma para o intercâmbio de ideias e a colaboração 
+        na investigação sobre as línguas amazónicas. Esta série de congressos
+        tem contribuído significativamente para destacar a importância das
+        línguas amazónicas para uma melhor compreensão da linguagem humana
+        em toda a sua diversidade, tendo gerado resultados académicos
+        importantes e, ao mesmo tempo, reforçado os laços no seio da comunidade
+        de linguistas dedicados a esta região e a outras. O AMAZONICAS XI terá
+        lugar na Pontifícia Universidade Católica do Peru, de 15 a 18 de junho
+        de 2027. O congresso consistirá numa sessão geral e em três simpósios
+        temáticos centrados em estudos de fonologia, morfossintaxe e língua e
+        sociedade. Estão abertas as inscrições para resumos de apresentações 
+        orais ou de cartazes. Para mais informações sobre a história e a organização do AMAZONICAS, consulte 
+        """
     }
 }
 
