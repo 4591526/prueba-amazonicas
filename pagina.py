@@ -200,7 +200,7 @@ amazonica = {
         fortalecer los lazos dentro de la comunidad de lingüistas dedicados a esta región y a otras. AMAZONICAS XI se celebrará en la Pontificia
         Universidad Católica del Perú, del 15 al 18 de junio de 2027. El congreso constará de una sesión general y tres simposios temáticos centrados en
         estudios de fonología, morfosintaxis, y lengua y sociedad. Se invitan resúmenes para presentaciones orales o pósters. Más información sobre
-        la historia y organización de AMAZONICAS puede verse en [AMAZONICAS website](https://amazonicas.org/).
+        la historia y organización de AMAZONICAS puede verse en
         """
     },
 
@@ -221,7 +221,6 @@ amazonica = {
         on studies in phonology, morphosyntax, and language and society. 
         Abstracts are invited for oral presentations or posters. More 
         information on the history and organization of AMAZONICAS can be found at
-        [AMAZONICAS website](https://amazonicas.org/).
         """
     },
             
@@ -242,7 +241,6 @@ amazonica = {
         temáticos centrados em estudos de fonologia, morfossintaxe e língua e
         sociedade. Estão abertas as inscrições para resumos de apresentações 
         orais ou de cartazes. Para mais informações sobre a história e a organização do AMAZONICAS, consulte
-        [AMAZONICAS website](https://amazonicas.org/).
         """
     }
 }
@@ -1180,6 +1178,11 @@ elif opciones == menus[idioma]["Amazonicas"]:
         </div>
         """,
         unsafe_allow_html=True
+    )
+    enlace_amazonicas = "[https://amazonicas.org/](https://amazonicas.org/)"
+    st.markdown(
+        enlace_amazonicas,
+        unsafe_allow_html=False
     )
   
 elif opciones == menus[idioma]["Programación"]: 
