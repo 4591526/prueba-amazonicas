@@ -206,7 +206,7 @@ convocatoria = {
         cubiertos por los simposios temáticos.
         """,
 
-        "Envio": """
+        "Envio": """<div style="color: #7f3213; font-size: 20px;">
         Envío de resúmenes: Un documento en formato PDF, máximo 1 página excluyendo las referencias,
         márgenes de 1 pulgada, fuente de 12 puntos y espacio sencillo. Incluya título.
         Las referencias y ejemplos pueden ser entregados en una página separada.
@@ -241,7 +241,7 @@ convocatoria = {
         linguistic topics outside of the thematic symposia.
         """,
 
-        "Envio": """
+        "Envio": """<div style="color: #7f3213; font-size: 20px;">
         Abstract submission: One document in PDF format, at most 1 page excluding references,
         1-inch margins, 12pt font, and single-spaced. Include a title.
         References and examples can be provided on an additional page.
@@ -276,7 +276,7 @@ convocatoria = {
         pelos simpósios temáticos.
         """,
 
-        "Envio": """
+        "Envio": """<div style="color: #7f3213; font-size: 20px;">
         Submissão de resumos: Um documento em formato PDF, máximo de 1 página sem as referências,
         margens de 1 polegada (2,54 cm), fonte 12 e espaço simples.
         Incluir título. As referências e exemplos podem constar em uma página
@@ -364,7 +364,7 @@ convocatoria_2 = {
         proposicional (pensar, creer) y enunciación (decir, hablar).
         """,
 
-        "Envio": """
+        "Envio": """<div style="color: #7f3213; font-size: 20px;">
         Envío de resúmenes: Un documento en formato PDF, de una página como máximo
         sin contar las referencias, con márgenes de 1 pulgada, fuente de 12 puntos
         y espacio sencillo. Incluya un título.
@@ -447,7 +447,7 @@ convocatoria_2 = {
         (say, speak).
         """,
 
-        "Envio": """
+        "Envio": """<div style="color: #7f3213; font-size: 20px;">
         Abstract submission: One document in PDF format, at most 1 page excluding
         references, with 1-inch margins, 12pt font, and single spacing. Include a
         title.
@@ -528,7 +528,7 @@ convocatoria_2 = {
         conhecimento (saber, perceber), atitude proposicional (pensar, acreditar)
         e enunciação (dizer, falar).""",
 
-        "Envio": """
+        "Envio": """<div style="color: #7f3213; font-size: 20px;">
         Submissão de resumos: Um documento em formato PDF, com no máximo uma página,
         sem contar as referências, com margens de 1 polegada (2,54 cm), fonte de
         12 pontos e espaçamento simples. Incluir um título.
@@ -611,7 +611,7 @@ convocatoria_3 = {
         multilingües.
         """,
 
-        "Envio": """
+        "Envio": """<div style="color: #7f3213; font-size: 20px;">
         Envío de resúmenes: Un documento en formato PDF, de un máximo de 1 página
         sin contar las referencias, con márgenes de 1 pulgada, fuente de 12 puntos
         y a espacio sencillo. Incluya un título.
@@ -691,7 +691,7 @@ convocatoria_3 = {
         and multilingual communities.
         """,
 
-        "Envio": """
+        "Envio": """<div style="color: #7f3213; font-size: 20px;">
         Abstract submission: One document in PDF format, at most 1 page excluding
         references, with 1-inch margins, 12pt font, and single spacing. Include
         a title.
@@ -772,7 +772,7 @@ convocatoria_3 = {
         conversação cotidiana e comunidades multilíngues.
         """,
 
-        "Envio": """
+        "Envio": """<div style="color: #7f3213; font-size: 20px;">
         Envio de resumos: Um documento em formato PDF, com no máximo 1 página,
         excluindo as referências, com margens de 1 polegada, fonte 12pt e
         espaçamento simples. Inclua um título.
@@ -856,8 +856,7 @@ convocatoria_4 = {
             y transmisión epigenética/cultural como punto de partida de la
             revitalización lingüística.</li></ul></div>""",
 
-        "Envio": """
-        <div style="color: #7f3213;">
+        "Envio": """<div style="color: #7f3213; font-size: 20px;">
 
         <p><strong>Entrega de resúmenes:</strong></p>
 
@@ -953,8 +952,7 @@ convocatoria_4 = {
             or ancestral voice, and epigenetic/cultural transmission as potential
             starting points for language revitalisation.</li></ul></div>""",
 
-        "Envio": """
-        <div style="color: #7f3213;">
+        "Envio": """<div style="color: #7f3213; font-size: 20px;">
 
         <p><strong>Abstract submission:</strong></p>
 
@@ -1052,8 +1050,7 @@ convocatoria_4 = {
             e transmissão epigenética/cultural como ponto de partida para a
             revitalização linguística.</li></ul></div>""",
 
-        "Envio": """
-        <div style="color: #7f3213;">
+        "Envio": """<div style="color: #7f3213; font-size: 20px;">
 
         <p><strong>Submissão de resumos:</strong></p>
 
