@@ -193,20 +193,13 @@ evento = {
 amazonica = {
     "Español": {
         "Descripcion": """<div style="color: #7f3213; font-size: 20px;">
-        El Congreso Internacional sobre Lenguas Amazónicas, AMAZONICAS, 
-        se concibió en 2007 como un evento bienal, que se celebra de manera
-        itinerante en diferentes países amazónicos, con el objetivo principal 
-        de servir de plataforma para el intercambio de ideas y la colaboración 
-        en la investigación sobre las lenguas amazónicas. Esta serie de congresos
-        ha contribuido en gran medida a poner de relieve la importancia de las
-        lenguas amazónicas para comprender mejor el lenguaje humano en toda su
-        diversidad, y ha generado importantes resultados académicos a la vez de
-        fortalecer los lazos dentro de la comunidad de lingüistas dedicados a
-        esta región y a otras. AMAZONICAS XI se celebrará en la Pontificia
-        Universidad Católica del Perú, del 15 al 18 de junio de 2027. El congreso
-        constará de una sesión general y tres simposios temáticos centrados en
-        estudios de fonología, morfosintaxis, y lengua y sociedad. Se invitan
-        resúmenes para presentaciones orales o pósters. Más información sobre
+        El Congreso Internacional sobre Lenguas Amazónicas, AMAZONICAS, se concibió en 2007 como un evento bienal, que se celebra de manera
+        itinerante en diferentes países amazónicos, con el objetivo principal de servir de plataforma para el intercambio de ideas y la colaboración 
+        en la investigación sobre las lenguas amazónicas. Esta serie de congresos ha contribuido en gran medida a poner de relieve la importancia de las
+        lenguas amazónicas para comprender mejor el lenguaje humano en toda su diversidad, y ha generado importantes resultados académicos a la vez de
+        fortalecer los lazos dentro de la comunidad de lingüistas dedicados a esta región y a otras. AMAZONICAS XI se celebrará en la Pontificia
+        Universidad Católica del Perú, del 15 al 18 de junio de 2027. El congreso constará de una sesión general y tres simposios temáticos centrados en
+        estudios de fonología, morfosintaxis, y lengua y sociedad. Se invitan resúmenes para presentaciones orales o pósters. Más información sobre
         la historia y organización de AMAZONICAS puede verse en 
         """
     },
