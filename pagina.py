@@ -42,16 +42,7 @@ st.markdown(
         background-attachment: fixed;
     }}
 
-    /* Fondo semitransparente para mejorar la lectura */
-    .block-container {{
-        background-color: rgba(255, 255, 255, 0.80);
-        padding: 2rem;
-        border-radius: 12px;
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+
         
 #st.markdown(f'<h1 style="font-size: 60px; text-align: center; color: green">Amazonicas XI</h1>', unsafe_allow_html=True)
 
