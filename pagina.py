@@ -46,7 +46,7 @@ st.markdown(
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        opacity: 0.75;
+        opacity: 0.65;
         z-index: 0;
         pointer-events: none;
     }}
