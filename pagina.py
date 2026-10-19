@@ -200,7 +200,7 @@ amazonica = {
         fortalecer los lazos dentro de la comunidad de lingüistas dedicados a esta región y a otras. AMAZONICAS XI se celebrará en la Pontificia
         Universidad Católica del Perú, del 15 al 18 de junio de 2027. El congreso constará de una sesión general y tres simposios temáticos centrados en
         estudios de fonología, morfosintaxis, y lengua y sociedad. Se invitan resúmenes para presentaciones orales o pósters. Más información sobre
-        la historia y organización de AMAZONICAS puede verse en 
+        la historia y organización de AMAZONICAS puede verse en '[https://amazonicas.org/](https://amazonicas.org/)'
         """
     },
 
@@ -220,7 +220,8 @@ amazonica = {
         consist of a general session and three thematic symposia focused 
         on studies in phonology, morphosyntax, and language and society. 
         Abstracts are invited for oral presentations or posters. More 
-        information on the history and organization of AMAZONICAS can be found at 
+        information on the history and organization of AMAZONICAS can be found at
+        '[https://amazonicas.org/](https://amazonicas.org/)'
         """
     },
             
@@ -240,7 +241,8 @@ amazonica = {
         de 2027. O congresso consistirá numa sessão geral e em três simpósios
         temáticos centrados em estudos de fonologia, morfossintaxe e língua e
         sociedade. Estão abertas as inscrições para resumos de apresentações 
-        orais ou de cartazes. Para mais informações sobre a história e a organização do AMAZONICAS, consulte 
+        orais ou de cartazes. Para mais informações sobre a história e a organização do AMAZONICAS, consulte
+        '[https://amazonicas.org/](https://amazonicas.org/)'
         """
     }
 }
@@ -1165,7 +1167,7 @@ if opciones == menus[idioma]["Evento"]:
         st.markdown( f""" <p style=" color: #7f3213; font-size: 20px; margin-left: 20px; "> • {tema} </p> """, unsafe_allow_html=True )
         
 elif opciones == menus[idioma]["Amazonicas"]:
-    st.markdown( f""" <h2 style=" font-size: 35px; text-align: center; color: #7f3213; "> "Amazonicas" </h2> """, unsafe_allow_html=True ) 
+    st.markdown( f""" <h2 style=" font-size: 35px; text-align: center; color: #7f3213; "> Amazonicas </h2> """, unsafe_allow_html=True ) 
     st.markdown(
         f"""
         <div style="
@@ -1178,10 +1180,6 @@ elif opciones == menus[idioma]["Amazonicas"]:
         </div>
         """,
         unsafe_allow_html=True
-    )
-    st.markdown(
-        '[https://amazonicas.org/](https://amazonicas.org/)',
-        unsafe_allow_html=False
     )
   
 elif opciones == menus[idioma]["Programación"]: 
