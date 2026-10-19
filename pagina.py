@@ -1183,11 +1183,15 @@ elif opciones == menus[idioma]["Amazonicas"]:
         """,
         unsafe_allow_html=True
     )
-    st.link_button(
-    "🌿 AMAZONICAS",
-    "https://amazonicas.org/",
-    use_container_width=False
-    )
+    # Centrar el botón
+    col1, col2, col3 = st.columns([1, 1, 1])
+    
+    with col2:
+        st.link_button(
+            "🌿 AMAZONICAS",
+            "https://amazonicas.org/",
+            use_container_width=True
+        )
   
 elif opciones == menus[idioma]["Programación"]: 
   st.header(menus[idioma]["Programación"]) 
