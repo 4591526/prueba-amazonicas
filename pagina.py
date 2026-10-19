@@ -199,8 +199,9 @@ amazonica = {
         lenguas amazónicas para comprender mejor el lenguaje humano en toda su diversidad, y ha generado importantes resultados académicos a la vez de
         fortalecer los lazos dentro de la comunidad de lingüistas dedicados a esta región y a otras. AMAZONICAS XI se celebrará en la Pontificia
         Universidad Católica del Perú, del 15 al 18 de junio de 2027. El congreso constará de una sesión general y tres simposios temáticos centrados en
-        estudios de fonología, morfosintaxis, y lengua y sociedad. Se invitan resúmenes para presentaciones orales o pósters. Más información sobre
-        la historia y organización de AMAZONICAS puede verse en
+        estudios de fonología, morfosintaxis, y lengua y sociedad. Se invitan resúmenes para presentaciones orales o pósters. 
+        
+        Más información sobre la historia y organización de AMAZONICAS puede verse en
         """
     },
 
@@ -219,8 +220,9 @@ amazonica = {
         University of Peru from June 15 to 18, 2027. The conference will
         consist of a general session and three thematic symposia focused 
         on studies in phonology, morphosyntax, and language and society. 
-        Abstracts are invited for oral presentations or posters. More 
-        information on the history and organization of AMAZONICAS can be found at
+        Abstracts are invited for oral presentations or posters. 
+        
+        More information on the history and organization of AMAZONICAS can be found at
         """
     },
             
@@ -240,7 +242,9 @@ amazonica = {
         de 2027. O congresso consistirá numa sessão geral e em três simpósios
         temáticos centrados em estudos de fonologia, morfossintaxe e língua e
         sociedade. Estão abertas as inscrições para resumos de apresentações 
-        orais ou de cartazes. Para mais informações sobre a história e a organização do AMAZONICAS, consulte
+        orais ou de cartazes. 
+        
+        Para mais informações sobre a história e a organização do AMAZONICAS, consulte
         """
     }
 }
