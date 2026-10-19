@@ -1185,7 +1185,7 @@ elif opciones == menus[idioma]["Amazonicas"]:
         unsafe_allow_html=True
     )
 
-        st.markdown(
+    st.markdown(
         f"""
         <p style="
             color: #7f3213;
