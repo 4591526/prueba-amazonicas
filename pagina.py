@@ -3,6 +3,8 @@ from streamlit_monaco import st_monaco
 import pandas as pd
 import graphviz
 import random
+import base64
+from pathlib import Path
 from streamlit_option_menu import option_menu
 
 st.set_page_config(
