@@ -15,6 +15,41 @@ col1, col2, col3 = st.columns([1,3,1], gap="small")
 with col2:
     st.image("logo_amazonicas.png", width=1500)
     #st.image("banner_amazonicas.png", width=1800)
+
+
+# Ruta de la imagen de fondo
+ruta_imagen = Path("amazonic_guy.png")
+
+# Convertir la imagen a Base64
+with open(ruta_imagen, "rb") as archivo:
+    imagen_base64 = base64.b64encode(
+        archivo.read()
+    ).decode()
+
+# Aplicar la imagen de fondo a toda la página
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background-image: url(
+            "data:image/png;base64,{imagen_base64}"
+        );
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }}
+
+    /* Fondo semitransparente para mejorar la lectura */
+    .block-container {{
+        background-color: rgba(255, 255, 255, 0.80);
+        padding: 2rem;
+        border-radius: 12px;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
         
 #st.markdown(f'<h1 style="font-size: 60px; text-align: center; color: green">Amazonicas XI</h1>', unsafe_allow_html=True)
 
