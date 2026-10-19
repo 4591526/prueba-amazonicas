@@ -192,7 +192,7 @@ evento = {
 
 amazonica = {
     "Español": {
-        "Descripcion": """
+        "Descripcion": """<div style="color: #7f3213; font-size: 20px;">
             El Congreso Internacional sobre Lenguas Amazónicas, AMAZONICAS, 
             se concibió en 2007 como un evento bienal, que se celebra de manera
             itinerante en diferentes países amazónicos, con el objetivo principal 
@@ -211,7 +211,7 @@ amazonica = {
     },
 
     "English": {
-        "Descripcion": """
+        "Descripcion": """<div style="color: #7f3213; font-size: 20px;">
             The International Congress on Amazonian Languages, AMAZONICAS, 
             was conceived in 2007 as a biennial event, held on a rotating basis 
             in different Amazonian countries, with the primary goal of serving 
@@ -231,7 +231,7 @@ amazonica = {
     },
             
     "Português": {
-        "Descricao": """
+        "Descripcion": """<div style="color: #7f3213; font-size: 20px;">
             O Congresso Internacional sobre Línguas Amazónicas, AMAZONICAS, 
             foi concebido em 2007 como um evento bienal, realizado de forma 
             itinerante em diferentes países amazónicos, com o objetivo principal 
