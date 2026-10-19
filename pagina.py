@@ -46,7 +46,7 @@ st.markdown(
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        opacity: 0.45;
+        opacity: 0.40;
         z-index: 0;
         pointer-events: none;
     }}
@@ -1107,10 +1107,10 @@ opciones = option_menu(
 )
 
 if opciones == menus[idioma]["Evento"]: 
-    st.markdown( f""" <h2 style=" font-size: 32px; text-align: center; color: #7f3213; "> {evento[idioma]["Evento"]} </h2> """, unsafe_allow_html=True ) 
-    st.markdown( f""" <p style="color: #7f3213; font-size: 18px;"> 📍 <strong>{evento[idioma]["Lugar_label"]}:</strong> {evento[idioma]["Lugar"]} </p> <p style="color: #7f3213; font-size: 18px;"> 📅 <strong>{evento[idioma]["Fechas_label"]}:</strong> {evento[idioma]["Fechas"]} </p> <p style="color: #7f3213; font-size: 18px;"> 📧 <strong>{evento[idioma]["Correo_label"]}:</strong> {evento[idioma]["Correo"]} </p> <h3 style="color: #7f3213;"> {evento[idioma]["Temas_label"]} </h3> """, unsafe_allow_html=True ) 
+    st.markdown( f""" <h2 style=" font-size: 35px; text-align: center; color: #7f3213; "> {evento[idioma]["Evento"]} </h2> """, unsafe_allow_html=True ) 
+    st.markdown( f""" <p style="color: #7f3213; font-size: 20px;"> 📍 <strong>{evento[idioma]["Lugar_label"]}:</strong> {evento[idioma]["Lugar"]} </p> <p style="color: #7f3213; font-size: 18px;"> 📅 <strong>{evento[idioma]["Fechas_label"]}:</strong> {evento[idioma]["Fechas"]} </p> <p style="color: #7f3213; font-size: 18px;"> 📧 <strong>{evento[idioma]["Correo_label"]}:</strong> {evento[idioma]["Correo"]} </p> <h3 style="color: #7f3213;"> {evento[idioma]["Temas_label"]} </h3> """, unsafe_allow_html=True ) 
     for tema in evento[idioma]["Temas"]: 
-        st.markdown( f""" <p style=" color: #7f3213; font-size: 17px; margin-left: 20px; "> • {tema} </p> """, unsafe_allow_html=True )
+        st.markdown( f""" <p style=" color: #7f3213; font-size: 20px; margin-left: 20px; "> • {tema} </p> """, unsafe_allow_html=True )
         
 elif opciones == menus[idioma]["Amazonicas"]: 
   st.header(menus[idioma]["Amazonicas"]) 
@@ -1125,7 +1125,7 @@ elif opciones == menus[idioma]["Organizadores"]:
   st.write("Información sobre Organizadores") 
     
 elif opciones == menus[idioma]["Convocatoria"]:
-    st.markdown(f"""<h2 style="color:#7f3213; text-align:center; font-size:32px;">{convocatoria_3[idioma]["Titulo"]}</h2>""",unsafe_allow_html=True)
+    st.markdown(f"""<h2 style="color:#7f3213; text-align:center; font-size:35px;">{convocatoria_3[idioma]["Titulo"]}</h2>""",unsafe_allow_html=True)
 
     st.markdown(f"""<h3 style="color:#7f3213; text-align:center;">{convocatoria_3[idioma]["Subtitulo"]}</h3>""",unsafe_allow_html=True)
 
@@ -1139,15 +1139,15 @@ elif opciones == menus[idioma]["Convocatoria"]:
         """,
         unsafe_allow_html=True)
 
-    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_3[idioma]["Descripcion"]}</p>""",unsafe_allow_html=True)
+    st.markdown(f"""<p style="color: #7f3213;font-size: 20px;">{convocatoria_3[idioma]["Descripcion"]}</p>""",unsafe_allow_html=True)
     
-    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_3[idioma]["Temas"]}</p>""",unsafe_allow_html=True)
+    st.markdown(f"""<p style="color: #7f3213;font-size: 20px;">{convocatoria_3[idioma]["Temas"]}</p>""",unsafe_allow_html=True)
     
-    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_3[idioma]["Prosodia"]}</p>""",unsafe_allow_html=True)
+    st.markdown(f"""<p style="color: #7f3213;font-size: 20px;">{convocatoria_3[idioma]["Prosodia"]}</p>""",unsafe_allow_html=True)
     
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             <strong>{convocatoria_3[idioma]["Envio"]}</strong>
         </p>
         """,
@@ -1156,7 +1156,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             {convocatoria_3[idioma]["Limite"]}
         </p>
         """,
@@ -1165,7 +1165,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             {convocatoria_3[idioma]["Idiomas"]}
         </p>
         """,
@@ -1174,7 +1174,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             <strong>{convocatoria_3[idioma]["Deadline"]}</strong>
         </p>
         """,
@@ -1183,7 +1183,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             <strong>{convocatoria_3[idioma]["Aceptacion"]}</strong>
         </p>
         """,
@@ -1192,7 +1192,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="font-size:18px;">
+        <p style="font-size:20px;">
             <a href="{convocatoria_3[idioma]["Link"]}"
                target="_blank"
                style="color:#7f3213; font-weight:bold;">
@@ -1217,18 +1217,18 @@ elif opciones == menus[idioma]["Convocatoria"]:
         """,
         unsafe_allow_html=True)
 
-    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Descripcion"]}</p>""",unsafe_allow_html=True)
+    st.markdown(f"""<p style="color: #7f3213;font-size: 20px;">{convocatoria_2[idioma]["Descripcion"]}</p>""",unsafe_allow_html=True)
     
-    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Coordinacion"]}</p>""",unsafe_allow_html=True)
+    st.markdown(f"""<p style="color: #7f3213;font-size: 20px;">{convocatoria_2[idioma]["Coordinacion"]}</p>""",unsafe_allow_html=True)
     
-    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Relativas"]}</p>""",unsafe_allow_html=True)
+    st.markdown(f"""<p style="color: #7f3213;font-size: 20px;">{convocatoria_2[idioma]["Relativas"]}</p>""",unsafe_allow_html=True)
     
-    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Adverbiales"]}</p>""",unsafe_allow_html=True)
+    st.markdown(f"""<p style="color: #7f3213;font-size: 20px;">{convocatoria_2[idioma]["Adverbiales"]}</p>""",unsafe_allow_html=True)
     
-    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_2[idioma]["Complemento"]}</p>""",unsafe_allow_html=True)
+    st.markdown(f"""<p style="color: #7f3213;font-size: 20px;">{convocatoria_2[idioma]["Complemento"]}</p>""",unsafe_allow_html=True)
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             <strong>{convocatoria_2[idioma]["Envio"]}</strong>
         </p>
         """,
@@ -1237,7 +1237,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             {convocatoria_2[idioma]["Limite"]}
         </p>
         """,
@@ -1246,7 +1246,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             {convocatoria_2[idioma]["Idiomas"]}
         </p>
         """,
@@ -1255,7 +1255,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             <strong>{convocatoria_2[idioma]["Deadline"]}</strong>
         </p>
         """,
@@ -1264,7 +1264,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             <strong>{convocatoria_2[idioma]["Aceptacion"]}</strong>
         </p>
         """,
@@ -1273,7 +1273,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="font-size:18px;">
+        <p style="font-size:20px;">
             <a href="{convocatoria_2[idioma]["Link"]}"
                target="_blank"
                style="color:#7f3213; font-weight:bold;">
@@ -1298,11 +1298,11 @@ elif opciones == menus[idioma]["Convocatoria"]:
         """,
         unsafe_allow_html=True)
 
-    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria_4[idioma]["Descripcion"]}</p>""",unsafe_allow_html=True)
+    st.markdown(f"""<p style="color: #7f3213;font-size: 20px;">{convocatoria_4[idioma]["Descripcion"]}</p>""",unsafe_allow_html=True)
     
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             <strong>{convocatoria_4[idioma]["Envio"]}</strong>
         </p>
         """,
@@ -1311,7 +1311,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             {convocatoria_4[idioma]["Limite"]}
         </p>
         """,
@@ -1320,7 +1320,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             {convocatoria_4[idioma]["Idiomas"]}
         </p>
         """,
@@ -1329,7 +1329,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             <strong>{convocatoria_4[idioma]["Deadline"]}</strong>
         </p>
         """,
@@ -1338,7 +1338,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             <strong>{convocatoria_4[idioma]["Aceptacion"]}</strong>
         </p>
         """,
@@ -1347,7 +1347,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="font-size:18px;">
+        <p style="font-size:20px;">
             <a href="{convocatoria_4[idioma]["Link"]}"
                target="_blank"
                style="color:#7f3213; font-weight:bold;">
@@ -1372,11 +1372,11 @@ elif opciones == menus[idioma]["Convocatoria"]:
         """,
         unsafe_allow_html=True)
 
-    st.markdown(f"""<p style="color: #7f3213;font-size: 18px;">{convocatoria[idioma]["Descripcion"]}</p>""",unsafe_allow_html=True)
+    st.markdown(f"""<p style="color: #7f3213;font-size: 20px;">{convocatoria[idioma]["Descripcion"]}</p>""",unsafe_allow_html=True)
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             <strong>{convocatoria[idioma]["Envio"]}</strong>
         </p>
         """,
@@ -1385,7 +1385,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             {convocatoria[idioma]["Limite"]}
         </p>
         """,
@@ -1394,7 +1394,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             {convocatoria[idioma]["Idiomas"]}
         </p>
         """,
@@ -1403,7 +1403,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             <strong>{convocatoria[idioma]["Deadline"]}</strong>
         </p>
         """,
@@ -1412,7 +1412,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="color:#7f3213; font-size:18px;">
+        <p style="color:#7f3213; font-size:20px;">
             <strong>{convocatoria[idioma]["Aceptacion"]}</strong>
         </p>
         """,
@@ -1421,7 +1421,7 @@ elif opciones == menus[idioma]["Convocatoria"]:
 
     st.markdown(
         f"""
-        <p style="font-size:18px;">
+        <p style="font-size:20px;">
             <a href="{convocatoria[idioma]["Link"]}"
                target="_blank"
                style="color:#7f3213; font-weight:bold;">
