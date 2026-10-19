@@ -1188,6 +1188,10 @@ elif opciones == menus[idioma]["Amazonicas"]:
         enlace_amazonicas,
         unsafe_allow_html=False
     )
+    st.link_button(
+        "🌐 https://amazonicas.org/",
+        "https://amazonicas.org/"
+    )
   
 elif opciones == menus[idioma]["Programación"]: 
   st.header(menus[idioma]["Programación"]) 
