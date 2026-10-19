@@ -207,8 +207,7 @@ amazonica = {
             constará de una sesión general y tres simposios temáticos centrados en
             estudios de fonología, morfosintaxis, y lengua y sociedad. Se invitan
             resúmenes para presentaciones orales o pósters. Más información sobre
-            la historia y organización de AMAZONICAS puede verse en """, 
-            "Link": ""https://amazonicas.org/."
+            la historia y organización de AMAZONICAS puede verse en """
     },
 
     "English": {
@@ -228,8 +227,7 @@ amazonica = {
             on studies in phonology, morphosyntax, and language and society. 
             Abstracts are invited for oral presentations or posters. More 
             information on the history and organization of AMAZONICAS can be 
-            found at """, 
-            "Link": ""https://amazonicas.org/."
+            found at """
     },
             
     "Português": {
@@ -249,8 +247,7 @@ amazonica = {
             temáticos centrados em estudos de fonologia, morfossintaxe e língua e
             sociedade. Estão abertas as inscrições para resumos de apresentações 
             orais ou de cartazes. Para mais informações sobre a história e a 
-            organização do AMAZONICAS, consulte """, 
-            "Link": ""https://amazonicas.org/."
+            organização do AMAZONICAS, consulte """
     }
 }
 
