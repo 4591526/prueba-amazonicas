@@ -37,10 +37,40 @@ st.markdown(
             "data:image/png;base64,{imagen_base64}"
         );
         background-size: cover;
-        background-position: center;
+        background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
     }}
+
+    /* Eliminar sombras y fondos del contenedor principal */
+    .stApp,
+    [data-testid="stAppViewContainer"],
+    [data-testid="stHeader"] {{
+        box-shadow: none !important;
+    }}
+
+    [data-testid="stHeader"] {{
+        background-color: transparent !important;
+    }}
+
+    /* Título */
+    h1 {{
+        font-size: 60px !important;
+        text-align: center;
+        color: green !important;
+    }}
+
+    /* Selectbox */
+    div[data-baseweb="select"] > div {{
+        color: black !important;
+        background-color: white !important;
+        border: 1px solid #555 !important;
+        box-shadow: none !important;
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 
         
