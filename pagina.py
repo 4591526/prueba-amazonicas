@@ -559,7 +559,7 @@ convocatoria_3 = {
         "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
         "Fecha_evento": "15 al 18 de junio de 2027",
 
-        "Descripcion": """<div style="color: #7f3213;">
+        "Descripcion": """<div style="color: #7f3213; font-size: 20px;">
         <strong>Fonología – con especial énfasis en la prosodia y la entonación</strong>
         <p>Invitamos a presentar resúmenes sobre cualquier tema relacionado con la
         fonética y la fonología de las lenguas indígenas de la Amazonía: fenómenos
@@ -641,7 +641,7 @@ convocatoria_3 = {
         "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
         "Fecha_evento": "June 15 to 18, 2027",
 
-        "Descripcion": """<div style="color: #7f3213;">
+        "Descripcion": """<div style="color: #7f3213; font-size: 20px;">
         <strong>Phonology – with a special focus on Prosody and Intonation</strong>
         <p>We invite abstracts on any topic in the phonetics and phonology of the
         Indigenous languages of Amazonia: segmental and suprasegmental phenomena,
@@ -720,7 +720,7 @@ convocatoria_3 = {
         "Lugar": "Pontificia Universidad Católica del Perú, Lima, Peru",
         "Fecha_evento": "15 a 18 de junho de 2027",
 
-        "Descripcion": """<div style="color: #7f3213;">
+        "Descripcion": """<div style="color: #7f3213; font-size: 20px;">
         <strong>Fonologia – com ênfase especial em prosódia e entonação</strong>
         <p>Convidamos o envio de resumos sobre qualquer tema relacionado à fonética
         e à fonologia das línguas indígenas da Amazônia: fenômenos segmentais e
