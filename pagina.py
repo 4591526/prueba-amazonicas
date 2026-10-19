@@ -1185,7 +1185,7 @@ elif opciones == menus[idioma]["Amazonicas"]:
         unsafe_allow_html=True
     )
 
-    st.markdown(
+        st.markdown(
         f"""
         <p style="
             color: #7f3213;
@@ -1194,7 +1194,7 @@ elif opciones == menus[idioma]["Amazonicas"]:
             line-height: 1.8;
         ">
             {amazonica[idioma]["Descripcion"]}
-            <a href="{amazonica[idioma]["Link"]}"
+            <a href="https://amazonicas.org/"
                target="_blank"
                style="color: #7f3213; font-weight: bold;">
                 https://amazonicas.org/
