@@ -1179,7 +1179,7 @@ elif opciones == menus[idioma]["Amazonicas"]:
             {amazonica[idioma]["Descripcion"]}
         </div>
         """,
-        unsafe_allow_html=True
+        unsafe_allow_html=False
     )
   
 elif opciones == menus[idioma]["Programación"]: 
