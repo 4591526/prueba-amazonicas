@@ -811,7 +811,7 @@ convocatoria_4 = {
         "Fecha_evento": "15 al 18 de junio de 2027",
 
         "Descripcion": """
-        <div style="color: #7f3213;">
+        <div style="color: #7f3213;font-size: 20px;">
         <strong>Lengua y Sociedad: Revitalización lingüística en contextos de alta obsolescencia</strong>
         <p>Las sociedades indígenas con un alto grado de obsolescencia lingüística
         son una realidad frecuente en la región de la Gran Amazonia, caracterizada
@@ -904,7 +904,7 @@ convocatoria_4 = {
 
         "Fecha_evento": "June 15 to 18, 2027",
 
-        "Descripcion": """<div style="color: #7f3213;">
+        "Descripcion": """<div style="color: #7f3213;font-size: 20px;">
         <strong>Language and Society: Language revitalization in high obsolescence contexts</strong>
         <p>Indigenous societies experiencing a high degree of language obsolescence
         are a frequent reality across the Greater Amazon region, which is
@@ -999,7 +999,7 @@ convocatoria_4 = {
 
         "Fecha_evento": "15 a 18 de junho de 2027",
 
-        "Descripcion": """<div style="color: #7f3213;">
+        "Descripcion": """<div style="color: #7f3213;font-size: 20px;">
         <strong>Língua e Sociedade: Revitalização linguística em contextos de alta obsolescência</strong>
         <p>As sociedades indígenas que vivenciam um alto grau de deslocamento
         linguístico constituem uma realidade amplamente disseminada na Grande
