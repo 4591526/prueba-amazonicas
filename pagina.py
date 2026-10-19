@@ -1183,14 +1183,10 @@ elif opciones == menus[idioma]["Amazonicas"]:
         """,
         unsafe_allow_html=True
     )
-    enlace_amazonicas = "[https://amazonicas.org/](https://amazonicas.org/)"
-    st.markdown(
-        enlace_amazonicas,
-        unsafe_allow_html=False
-    )
     st.link_button(
-        "🌐 https://amazonicas.org/",
-        "https://amazonicas.org/"
+    "🌿 AMAZONICAS",
+    "https://amazonicas.org/",
+    use_container_width=False
     )
   
 elif opciones == menus[idioma]["Programación"]: 
